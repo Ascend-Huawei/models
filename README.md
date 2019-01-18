@@ -3,6 +3,7 @@
  
  ## 模型转化指导
 可以参考以下指导书将开源网络模型转化为华为NPU芯片支持的Davici模型。
+
 [离线模型转化指导](https://ascend.github.io/ascenddk-private/doc/mindstudio_opg/%E6%96%B0%E5%A2%9E%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A8%A1%E5%9E%8B%E7%BB%84%E4%BB%B6.html)
 
 ## 模型列表<a name="section62083614491"></a>
