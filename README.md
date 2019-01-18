@@ -1,7 +1,7 @@
  ## models仓简介
  此仓库存放ascenddk开源app中使用的模型文件，并已经通过Mind Studio的模型转化功能转化为了华为NPU芯片支持的模型。
 
-## 使用模型列表
+## 模型介绍
 FaceDetectionModel：基于Caffe的SSD 300模型。
 - [网络下载地址](https://github.com/opencv/opencv/blob/master/samples/dnn/face_detector/deploy.prototxt)
 - [训练后的权重值下载地址](https://github.com/opencv/opencv/blob/master/samples/dnn/face_detector/deploy.prototxt)
