@@ -12,21 +12,19 @@ Scene Name: Om file Name and upper directory name should be scenes to be used.
 *******************************************************************************
 
 Original Network Link:
-//Convert from caffe/tensorflow/pytorch, etc---needed
+https://github.com/opencv/opencv/blob/master/samples/dnn/face_detector/deploy.prototxt
 
 Pre-trained Model Link:
-//Convert from caffe/tensorflow/pytorch, etc---needed
+https://github.com/opencv/opencv_3rdparty/tree/dnn_samples_face_detector_20170830
 
 Input Description:
-//Input image size, format etc.---needed
+
 
 Output Description:
-//label link, etc.--- needed
+
 
 Custom Operator:
-//Custom operator is included or not: Yes/No---needed
-//Custom operater code link ---optional
+No
 
 Tested Version List:
-//-Atlas 200
-//-Atlas 300
+-Atlas 200
