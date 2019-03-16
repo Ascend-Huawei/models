@@ -32,7 +32,7 @@
 #   =======================================================================
 
 # ************************Variable*********************************************
-script_path="$( cd "$(dirname "$0")" ; pwd -P )""/"
+script_path="$( cd "$(dirname "$0")" ; pwd -P )"
 
 tools_vresion=$1
 download_flag=$2
@@ -44,7 +44,7 @@ fi
 
 #download branch_desc.txt
 if [[ ${download_flag}"X" == "X" || ${download_flag} == "true" ]];then
-    wget -O ${script_path}/branch_desc.txt "https://raw.githubusercontent.com/Ascend/models/master/branch_desc.txt"
+    wget -O ${script_path}/branch_desc.txt "https://raw.githubusercontent.com/Ascend/models/master/branch_desc.txt" --no-check-certificate
     if [ $? -ne 0 ];then
         echo "ERROR: download branch_desc.txt failed, please https://raw.githubusercontent.com/Ascend/models/master/branch_desc.txt connetction."
         exit 1
