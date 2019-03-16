@@ -38,7 +38,8 @@ tools_vresion=$1
 download_flag=$2
 
 if [[ ${tools_vresion}"X" == "X" ]];then
-    echo "ERROR: tools version is empty, please check you command."
+    echo "ERROR: tools version is empty, please check your command."
+    exit 1
 fi
 
 #download branch_desc.txt
