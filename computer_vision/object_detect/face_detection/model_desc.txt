@@ -18,10 +18,11 @@ Pre-trained Model Link:
 https://github.com/opencv/opencv_3rdparty/tree/dnn_samples_face_detector_20170830
 
 Input Description:
-
+size: 384*304
+format: YUV420SP_U8
 
 Output Description:
-
+The pre-trained model will recognize 2 types: face and others.
 
 Custom Operator:
 No
