@@ -5,7 +5,7 @@ computer_vision
    |-- classification
        |-- {car_color_model}
             |--{car_color_model}.om
-            |--model_desc.txt
+            |--README.md
    |-- object_detect
    |-- segmentation
 ```
