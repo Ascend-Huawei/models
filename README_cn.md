@@ -74,5 +74,5 @@
 
 ## 说明<a name="section5806355565"></a>
 
-模型提交请按照[model_desc.txt](model_desc.txt)要求提交。
+模型提交请按照[README_MODEL_TEMPLATE](README_MODEL_TEMPLATE.md)要求提交。
 此仓中的模型是从互联网获取的开源网络模型，未经过华为优化，相关精度、性能取决于源网络。如您不满足你的使用要求，可以联系华为获取商用解决方案。
