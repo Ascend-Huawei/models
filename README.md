@@ -59,6 +59,6 @@ Convert the open source network model into the Davici model supported by Huawei 
 
 ## Note<a name="section5806355565"></a>
 
-Submit the model based on the [model_desc.txt](model_desc.txt) requirements.
+Submit the model based on the [README_MODEL_TEMPLATE.md](README_MODEL_TEMPLATE.md) requirements.
 The model in this warehouse is an open source network model obtained from the Internet, which is not optimized by Huawei. The accuracy and performance depend on the source network. If do not meet your requirements, contact Huawei to obtain a commercial solution.
 
