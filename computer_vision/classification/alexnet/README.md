@@ -1,18 +1,14 @@
 *******************************************************************************
 Model Path Description:
-
+```
 computer_vision
-
-   |-- classification
-   
+   |-- classification   
        |-- {scene_name}
             |--{scene_name}.om
-            |--model_desc.txt
-            
-   |-- object_detect
-   
+            |--model_desc.txt            
+   |-- object_detect   
    |-- segmentation
-
+```
 Scene Name: Om file Name and upper directory name should be scenes to be used.
 *******************************************************************************
 
