@@ -1,9 +1,9 @@
 *******************************************************************************
 Model Path Description:
 
-|--models
+|-- models
 
-   |--computer_vision
+    |--computer_vision
          |-- classification   
              |-- {scene_name}       
                   |--{scene_name}.om            
