@@ -1,5 +1,5 @@
 *******************************************************************************
-Model Path Description:
+##### Structure of the directory for storing model files
 ```
 computer_vision
    |--classification      
@@ -9,26 +9,36 @@ computer_vision
    |--object_detect   
    |--segmentation
 ```
-Scene Name: Om file Name and upper directory name should be scenes to be used.
+Note: 
+
+The name of the network model file suffixed with om must be the same as the name of the upper-layer folder.
 
 *******************************************************************************
 
-Original Network Link:
-//Convert from caffe/tensorflow/pytorch, etc---needed
+##### Original Network Link:
 
-Pre-trained Model Link:
-//Convert from caffe/tensorflow/pytorch, etc---needed
+//Address of the original network model such as caffe/tensorflow/pytorch ---[mandatory]
 
-Input Description:
-//Input image size, format etc.---needed
+##### Pre-trained Model Link:
 
-Output Description:
-//label link, etc.--- needed
+//Pre-training network model address such as caffe/tensorflow/pytorch ---[mandatory]
 
-Custom Operator:
-//Custom operator is included or not: Yes/No---needed
-//Custom operater code link ---optional
+##### Lable File Link:
 
-Tested Version List:
-//-Atlas 200
-//-Atlas 300
+//Address of the lable file corresponding to the training data set --- [mandatory]
+
+##### Input Data Description:
+
+//Input image requirements, including the size and format ---[mandatory]
+
+##### Custom Operator:
+
+- /Indicates whether to include customized operators: Included/Not included ---[mandatory]
+
+- //URL of the Customized operator code ---[optional]
+
+##### Versions that have been verified:
+
+- //-Atlas 200
+
+- //-Atlas 300
