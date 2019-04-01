@@ -32,5 +32,6 @@ The address of the lable file corresponding to the training data set is https://
 
 Not included
 
-##### Versions that have been verified: ---[mandatory]
-//-Atlas 200
+##### Versions that have been verified: 
+
+- Atlas 200

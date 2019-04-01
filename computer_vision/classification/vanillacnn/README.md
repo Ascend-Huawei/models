@@ -29,5 +29,5 @@ It will recognize 5 coordinate points(left eyes,right eyes,nose,left mouth corne
 ##### Custom Operator:
 Not included
 
-##### Versions that have been verified: ---[mandatory]
--Atlas 200
+##### Versions that have been verified:
+- Atlas 200

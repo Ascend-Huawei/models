@@ -3,8 +3,8 @@
 ```
 computer_vision
    |-- classification
-       |-- {scene_name}
-            |--{scene_name}.om
+       |-- face_detection
+            |--face_detection.om
             |--README.md
    |-- object_detect
    |-- segmentation
@@ -29,4 +29,4 @@ The pre-trained model will recognize 2 types: face and others.
 Not included
 
 ##### Versions that have been verified:
--Atlas 200
+- Atlas 200

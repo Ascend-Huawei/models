@@ -31,7 +31,7 @@ The pre-trained model is trained for image recognition, and its results follow 1
 
 Not included
 
-##### Versions that have been verified: ---[mandatory]
+##### Versions that have been verified: 
 
--Atlas 200
+- Atlas 200
 

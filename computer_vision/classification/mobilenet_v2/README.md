@@ -12,7 +12,7 @@ computer_vision
 *******************************************************************************
 
 ##### Original Network Link:
-
+ 
 https://github.com/shicai/MobileNet-Caffe
 
 ##### Pre-trained Model Link:
@@ -33,4 +33,4 @@ Not included
 
 ##### Versions that have been verified: 
 
--Atlas 200
+- Atlas 200

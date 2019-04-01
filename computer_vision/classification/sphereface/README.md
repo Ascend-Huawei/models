@@ -28,5 +28,5 @@ It will recognize face and return 512 vector.
 ##### Custom Operator:
 Not included
 
-##### Versions that have been verified: ---[mandatory]
--Atlas 200
+##### Versions that have been verified: 
+- Atlas 200

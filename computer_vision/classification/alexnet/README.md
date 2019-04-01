@@ -27,5 +27,5 @@ The pre-trained model is trained for image recognition，the result follow 1000 
 ##### Custom Operator:
 Not included
 
-##### Versions that have been verified: ---[mandatory]
--Atlas 200
+##### Versions that have been verified: 
+- Atlas 200

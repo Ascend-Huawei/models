@@ -21,7 +21,7 @@ computer_vision
 
 ##### Input Data Description:
 
-//Input image size is 224x224, format is BGR.
+Input image size is 224x224, format is BGR.
 
 ##### Out Data Description:
 
@@ -31,6 +31,6 @@ computer_vision
 
 Not included
 
-##### Versions that have been verified: ---[mandatory]
+##### Versions that have been verified: 
 
--Atlas 200
+- Atlas 200
