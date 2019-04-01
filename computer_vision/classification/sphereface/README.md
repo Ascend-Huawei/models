@@ -1,33 +1,32 @@
 *******************************************************************************
-Model Path Description:
+##### Structure of the directory for storing model files
 ```
 computer_vision
    |-- classification
-       |-- {scene_name}
-            |--{scene_name}.om
+       |-- sphereface
+            |--sphereface.om
             |--README.md
    |-- object_detect
    |-- segmentation
 ```
-Scene Name: Om file Name and upper directory name should be scenes to be used.
 *******************************************************************************
 
-Original Network Link:
+##### Original Network Link:
 https://github.com/wy1iu/sphereface
 
-Pre-trained Model Link:
+##### Pre-trained Model Link:
 https://drive.google.com/open?id=0B_geeR2lTMegb2F6dmlmOXhWaVk
 
-Input Description:
+##### Input Data Description:
 Size: 96*112
 Format: RGB U8
 
-Output Description:
+##### Out Data Description:
 The pre-trained model is trained on CAISA-WebFace and testing on LFW using the 20-layer CNN architecture.
 It will recognize face and return 512 vector.
 
-Custom Operator:
-Custom operator is included or not:No
+##### Custom Operator:
+Not included
 
-Tested Version List:
+##### Versions that have been verified: ---[mandatory]
 -Atlas 200

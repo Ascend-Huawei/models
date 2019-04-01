@@ -1,35 +1,33 @@
 *******************************************************************************
-Model Path Description:
+##### Structure of the directory for storing model files
 ```
 computer_vision
    |-- classification
-       |-- {scene_name}
-            |--{scene_name}.om
+       |-- vanillacnn
+            |--vanillacnn.om
             |--README.md
    |-- object_detect
    |-- segmentation
 ```
-Scene Name: Om file Name and upper directory name should be scenes to be used.
 *******************************************************************************
 
-Original Network Link:
+##### Original Network Link:
 https://github.com/ishay2b/VanillaCNN/tree/master/ZOO/vanilla_deploy.prototxt
 Convert from caffe
 
-Pre-trained Model Link:
+##### Pre-trained Model Link:
 https://github.com/ishay2b/VanillaCNN/tree/master/ZOO/vanillaCNN.caffemodel
 
-Input Description:
+##### Input Data Description:
 The input image should be resized to 40*40 pixels
 
-Output Description:
+##### Out Data Description:
 The pre-trained model is trained to detect on the key points on the face.
 It will recognize 5 coordinate points(left eyes,right eyes,nose,left mouth corner, right mouth corner).
 
 
-Custom Operator:
-Custom operator is included or not: No
+##### Custom Operator:
+Not included
 
-
-Tested Version List:
+##### Versions that have been verified: ---[mandatory]
 -Atlas 200

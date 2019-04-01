@@ -1,15 +1,14 @@
 *******************************************************************************
-Model Path Description:
+##### Structure of the directory for storing model files
 ```
 computer_vision
    |-- classification
-       |-- {scene_name}
-            |--{scene_name}.om
+       |-- faster_rcnn
+            |--faster_rcnn.om
             |--README.md
    |-- object_detect
    |-- segmentation
 ```
-Scene Name: Om file Name and upper directory name should be scenes to be used.
 *******************************************************************************
 
 This model file is optimized for singular value decomposition based on the open source model,
@@ -17,20 +16,27 @@ which can reduce the parameters of the fully connected layer and greatly reduce 
 Please refer to the following script for specific usage.
 https://github.com/rbgirshick/py-faster-rcnn/blob/781a917b378dbfdedb45b6a56189a31982da1b43/tools/compress_net.py
 
-Original Network Link:
+##### Original Network Link:
+
 https://github.com/rbgirshick/py-faster-rcnn/blob/master/models/pascal_voc/VGG16/faster_rcnn_end2end/test.prototxt
 Convert from caffe
 
-Pre-trained Model Link:
+##### Pre-trained Model Link:
+
 https://drive.google.com/open?id=0BzKzrI_SkD1_dlJpZHJzOXd3MTg
 
-Input Description:
+
+##### Input Data Description:
+
 The input image should be resized to 800*600 pixels
 
-Output Description:
-//label link, etc.--- needed
-The pre-trained model is trained to detect on the Pascal voc datasets.
-It will recognize 20 classes of object and 1 background.
+##### Out Data Description:
+
+The pre-trained model is trained to detect on the Pascal voc datasets. It will recognize 20 classes of object and 1 background.
+
+##### Custom Operator:
+
+Custom Operator Name: detection_out
 
 In order to reduce the post-processing difficulty, we provide a custom layer named "detection_out",
 which helps us filter the bounding boxes.
@@ -51,10 +57,6 @@ layer {
   }
 }
 
-Custom Operator:
-detection_out
-Custom operator is included or not: Yes
+##### Versions that have been verified:
 
-
-Tested Version List:
 -Atlas 200

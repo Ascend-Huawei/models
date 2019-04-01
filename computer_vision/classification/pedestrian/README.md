@@ -1,28 +1,31 @@
 *******************************************************************************
-Model Path Description:
+##### Structure of the directory for storing model files
 ```
 computer_vision
    |-- classification
-       |-- {scene_name}
-            |--{scene_name}.om
+       |-- pedestrian
+            |--pedestrian.om
             |--README.md
    |-- object_detect
    |-- segmentation
 ```
-Scene Name: Om file Name and upper directory name should be scenes to be used.
 *******************************************************************************
 
-Original Network Link:
+##### Original Network Link:
+
 https://cvhci.anthropomatik.kit.edu/~aschuman/vespa/vespa-peta_iter_12000.caffemodel
 
-Pre-trained Model Link:
+##### Pre-trained Model Link:
+
 https://cvhci.anthropomatik.kit.edu/~aschuman/vespa/vespa-peta_iter_12000.caffemodel
 
-Input Description:
+##### Input Data Description:
+
 Input image size[width, height]:227*227
 format:BGR
 
-Output Description:
+##### Out Data Description:
+
 output 35 pedestriain attrbutes:
 "Age16-30", "Age31-45", "Age46-60", "AgeAbove61", "Backpack", 
 "CarryingOther", "Casual lower", "Casual upper", "Formal lower", 
@@ -32,9 +35,11 @@ output 35 pedestriain attrbutes:
 "Short Sleeve", "Skirt", "Sneaker", "Stripes", "Sunglasses", 
 "Trousers", "Tshirt", "UpperOther", "V-Neck"
 
-Custom Operator:
-Custom operator is included or not: No
+##### Custom Operator:
 
+Not included
 
-Tested Version List:
+##### Versions that have been verified: 
+
 -Atlas 200
+

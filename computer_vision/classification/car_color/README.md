@@ -1,32 +1,36 @@
 *******************************************************************************
-Model Path Description:
+##### Structure of the directory for storing model files
 ```
 computer_vision
    |-- classification
-       |-- {car_color_model}
-            |--{car_color_model}.om
+       |-- car_color
+            |--car_color.om
             |--README.md
    |-- object_detect
    |-- segmentation
 ```
-Scene Name: Om file Name and upper directory name should be scenes to be used.
 *******************************************************************************
 
-Original Network Link:
+##### Original Network Link:
+
 //Convert from caffe/tensorflow/pytorch, etc---needed
 
-Pre-trained Model Link:
+##### Pre-trained Model Link:
+
 //Convert from caffe/tensorflow/pytorch, etc---needed
 
-Input Description:
+##### Input Data Description:
+
 //Input image size is 224x224, format is BGR.
 
-Output Description:
+##### Out Data Description:
+
 //black;blue;brown;gold;green;grey;maroon;orange;red;silver;white;yellow
 
-Custom Operator:
-//Custom operator is included or not: No
-//Custom operater code link ---optional
+##### Custom Operator:
 
-Tested Version List:
-//-Atlas 200
+Not included
+
+##### Versions that have been verified: ---[mandatory]
+
+-Atlas 200

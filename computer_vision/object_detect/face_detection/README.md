@@ -1,5 +1,5 @@
 *******************************************************************************
-Model Path Description:
+##### Structure of the directory for storing model files
 ```
 computer_vision
    |-- classification
@@ -9,24 +9,24 @@ computer_vision
    |-- object_detect
    |-- segmentation
 ```
-Scene Name: Om file Name and upper directory name should be scenes to be used.
+
 *******************************************************************************
 
-Original Network Link:
+##### Original Network Link:
 https://github.com/opencv/opencv/blob/master/samples/dnn/face_detector/deploy.prototxt
 
-Pre-trained Model Link:
+##### Pre-trained Model Link:
 https://github.com/opencv/opencv_3rdparty/tree/dnn_samples_face_detector_20170830
 
-Input Description:
+##### Input Data Description:
 size: 384*304
 format: YUV420SP_U8
 
-Output Description:
+##### Out Data Description:
 The pre-trained model will recognize 2 types: face and others.
 
-Custom Operator:
-No
+##### Custom Operator:
+Not included
 
-Tested Version List:
+##### Versions that have been verified:
 -Atlas 200

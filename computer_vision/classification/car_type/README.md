@@ -1,32 +1,36 @@
 *******************************************************************************
-Model Path Description:
+##### Structure of the directory for storing model files
 ```
 computer_vision
    |-- classification
-       |-- {car_type}
-            |--{car_type}.om
+       |-- car_type
+            |--car_type.om
             |--README.md
    |-- object_detect
    |-- segmentation
 ```
-Scene Name: Om file Name and upper directory name should be scenes to be used.
 *******************************************************************************
 
-Original Network Link:
+##### Original Network Link:
+
 https://gist.github.com/bogger/b90eb88e31cd745525ae
 
-Pre-trained Model Link:
+##### Pre-trained Model Link:
+
 http://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/googlenet_finetune_web_car_iter_10000.caffemodel
 
-Input Description:
+
+##### Input Data Description:
+
 Input image size is 224*224, format is BGR
 
-Output Description:
-label link is https://github.com/bogger/caffe-multigpu/blob/multigpu/models/finetune_web_car/matlab/make_model_names_cls.mat
+##### Out Data Description:
 
-Custom Operator:
-//Custom operator is included or not: No
-//Custom operater code link ---optional
+The address of the lable file corresponding to the training data set is https://github.com/bogger/caffe-multigpu/blob/multigpu/models/finetune_web_car/matlab/make_model_names_cls.mat
 
-Tested Version List:
+##### Custom Operator:
+
+Not included
+
+##### Versions that have been verified: ---[mandatory]
 //-Atlas 200

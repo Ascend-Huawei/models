@@ -23,22 +23,26 @@ The name of the network model file suffixed with om must be the same as the name
 
 //Pre-training network model address such as caffe/tensorflow/pytorch ---[mandatory]
 
-##### Lable File Link:
-
-//Address of the lable file corresponding to the training data set --- [mandatory]
-
 ##### Input Data Description:
 
 //Input image requirements, including the size and format ---[mandatory]
 
+##### Out Data Description:
+
+//Description of the output data of a model, and the address of the lable file corresponding to the training data set ---[mandatory]
+
 ##### Custom Operator:
 
-- /Indicates whether to include customized operators: Included/Not included ---[mandatory]
+- //Indicates whether to include custom operators: Included/Not included ---[mandatory]
 
-- //URL of the Customized operator code ---[optional]
+- //Custom Operator Name: --- [Optional]
+- //URL of the Custom operator code: --- [Optional]
+	
+- //Custom Operator Name: --- [Optional]
+- //URL of the Custom operator code: --- [Optional]
 
-##### Versions that have been verified:
+Note: Add all involved custom operators in the preceding format.
 
+##### Versions that have been verified: ---[mandatory]
 - //-Atlas 200
-
 - //-Atlas 300
