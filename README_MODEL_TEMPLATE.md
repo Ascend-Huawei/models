@@ -43,6 +43,7 @@ The name of the network model file suffixed with om must be the same as the name
 
 Note: Add all involved custom operators in the preceding format.
 
-##### Versions that have been verified: ---[mandatory]
-- //-Atlas 200
-- //-Atlas 300
+##### Versions that have been verified: 
+---[mandatory]
+- //Atlas 200
+- //Atlas 300
