@@ -5,7 +5,7 @@ computer_vision
    |-- classification
    |-- object_detect
        |-- {car_plate_detection}
-            |--{car_plate_detection_model}.om
+            |--{car_plate_detection}.om
             |--README.md
    |-- segmentation
 ```

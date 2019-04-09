@@ -4,7 +4,7 @@ Model Path Description:
 computer_vision
    |-- classification
        |-- {car_plate_recognition}
-            |--{car_plate_recognition_model}.om
+            |--{car_plate_recognition}.om
             |--README.md
    |-- object_detect
    |-- segmentation
