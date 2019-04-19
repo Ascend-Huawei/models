@@ -1,0 +1,31 @@
+*******************************************************************************
+##### Structure of the directory for storing model files
+```
+computer_vision
+   |-- classification
+   |-- object_detect
+        |-- {face_body_detection}
+            |--{face_detectin}.om
+            |--model_desc.txt
+   |-- segmentation
+```
+
+*******************************************************************************
+
+##### Original Network Link:
+//Convert from caffe/tensorflow/pytorch, etc---needed
+
+##### Pre-trained Model Link:
+//Convert from caffe/tensorflow/pytorch, etc---needed
+
+##### Input Description:
+//Input image size is 1280*720, format is YUV420SP_U8.
+
+##### Output Description:
+//It will recognize 2 classes of object(face and body) and 1 background.
+
+##### Custom Operator:
+//Custom operator is included or not: No
+
+##### Tested Version List:
+//-Atlas 300
