@@ -10,6 +10,9 @@ computer_vision
    |-- segmentation
 ```
 *******************************************************************************
+#### Model Description
+
+Network model for identifying the vehicle color
 
 ##### Original Network Link:
 
@@ -34,3 +37,4 @@ Not included
 ##### Versions that have been verified: 
 
 - Atlas 200
+- Atlas 300

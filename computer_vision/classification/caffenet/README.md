@@ -10,6 +10,9 @@ computer_vision
          |-- segmentation
 ```         
 *******************************************************************************
+#### Model Description
+
+Image classification inference model
 
 ##### Original Network Link:
 
@@ -34,4 +37,5 @@ Not included
 ##### Versions that have been verified: 
 
 - Atlas 200
+- Atlas 300
 

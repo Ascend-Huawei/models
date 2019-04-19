@@ -11,6 +11,10 @@ computer_vision
 ```
 *******************************************************************************
 
+#### Model Description
+
+Network model for object detection
+
 ##### Original Network Link:
 
 https://github.com/weiliu89/caffe/tree/ssd
@@ -35,3 +39,4 @@ Not included
 ##### Versions that have been verified: 
 
 - Atlas 200
+- Atlas 300

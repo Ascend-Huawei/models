@@ -11,6 +11,9 @@ computer_vision
 ```
 *******************************************************************************
 
+#### Model Description
+Network model for obtaining feature vectors
+
 ##### Original Network Link:
 https://github.com/wy1iu/sphereface
 

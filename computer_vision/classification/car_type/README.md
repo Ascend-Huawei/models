@@ -11,6 +11,10 @@ computer_vision
 ```
 *******************************************************************************
 
+##### Model Description:
+
+Network model for identifying the vehicle brand
+
 ##### Original Network Link:
 
 https://gist.github.com/bogger/b90eb88e31cd745525ae
@@ -35,3 +39,4 @@ Not included
 ##### Versions that have been verified: 
 
 - Atlas 200
+- Atlas 300

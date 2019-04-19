@@ -11,6 +11,9 @@ computer_vision
 ```
 *******************************************************************************
 
+#### Model Description
+Image classification inference model
+
 ##### Original Network Link:
 https://github.com/davidgengenbach/vgg-caffe/blob/master/model/VGG_ILSVRC_19_layers_deploy.prototxt
 
@@ -28,3 +31,4 @@ Not included
 
 ##### Versions that have been verified: 
 - Atlas 200
+- Atlas 300

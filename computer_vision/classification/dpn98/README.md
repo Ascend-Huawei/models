@@ -11,6 +11,10 @@ computer_vision
 ```
 *******************************************************************************
 
+#### Model Description
+
+Image classification inference model
+
 ##### Original Network Link:
 
 https://github.com/soeaver/caffe-model/blob/master/cls/dpn/deploy_dpn98.prototxt
@@ -34,3 +38,4 @@ Not included
 ##### Versions that have been verified: 
 
 - Atlas 200
+- Atlas 300
