@@ -12,20 +12,31 @@ computer_vision
 Scene Name: Om file Name and upper directory name should be scenes to be used.
 *******************************************************************************
 
-Original Network Link:
+#### Model Description
+
+Network model for identifying the license plate
+
+##### Original Network Link:
+
 http://www.voidcn.com/article/p-kpmbpnho-bpe.html
 
-Pre-trained Model Link:
+##### Pre-trained Model Link:
 
+//Convert from caffe/tensorflow/pytorch, etc---needed
 
-Input Description:
+##### Input Data Description:
+
 The input image should be resized to 272*72
 
-Output Description:
+##### Out Data Description:
+
 output size is 65*7, the index of max value in 65 corresponding to one character of the car plate, only support 7 characters car plate recognition.
 
-Custom Operator:
-No
+##### Custom Operator:
 
-Tested Version List:
--Atlas 200
+Not included
+
+##### Versions that have been verified: 
+
+- Atlas 200
+- Atlas 300

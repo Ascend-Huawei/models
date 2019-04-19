@@ -11,6 +11,10 @@ computer_vision
 ```
 *******************************************************************************
 
+#### Model Description
+
+Image classification inference model
+
 ##### Original Network Link:
 
 https://raw.githubusercontent.com/pertusa/InceptionBN-21K-for-Caffe/master/deploy.prototxt
@@ -34,3 +38,4 @@ Not included
 ##### Versions that have been verified: 
 
 - Atlas 200
+- Atlas 300

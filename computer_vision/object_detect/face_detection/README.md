@@ -12,6 +12,9 @@ computer_vision
 
 *******************************************************************************
 
+#### Model Description
+Network model for face detection
+
 ##### Original Network Link:
 https://github.com/opencv/opencv/blob/master/samples/dnn/face_detector/deploy.prototxt
 

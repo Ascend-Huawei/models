@@ -16,6 +16,10 @@ which can reduce the parameters of the fully connected layer and greatly reduce 
 Please refer to the following script for specific usage.
 https://github.com/rbgirshick/py-faster-rcnn/blob/781a917b378dbfdedb45b6a56189a31982da1b43/tools/compress_net.py
 
+#### Model Description
+
+Network model for object detection
+
 ##### Original Network Link:
 
 https://github.com/rbgirshick/py-faster-rcnn/blob/master/models/pascal_voc/VGG16/faster_rcnn_end2end/test.prototxt
@@ -60,3 +64,4 @@ layer {
 ##### Versions that have been verified:
 
 - Atlas 200
+- Atlas 300

@@ -11,6 +11,9 @@ computer_vision
 ```
 *******************************************************************************
 
+#### Model Description
+Network model for marking facial feature points
+
 ##### Original Network Link:
 https://github.com/ishay2b/VanillaCNN/tree/master/ZOO/vanilla_deploy.prototxt
 Convert from caffe

@@ -11,6 +11,9 @@ computer_vision
 ```
 *******************************************************************************
 
+#### Model Description
+Image classification inference model
+
 ##### Original Network Link:
 https://github.com/DeepScale/SqueezeNet/tree/master/SqueezeNet_v1.1
 
@@ -28,3 +31,4 @@ Not included
 
 ##### Versions that have been verified:
 - Atlas 200
+- Atlas 300

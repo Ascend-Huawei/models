@@ -11,6 +11,11 @@ computer_vision
 ```
 *******************************************************************************
 
+
+#### Model Description
+
+Image classification inference model
+
 ##### Original Network Link:
 
 https://github.com/shicai/MobileNet-Caffe
@@ -34,3 +39,4 @@ Not included
 ##### Versions that have been verified: 
 
 - Atlas 200
+- Atlas 300

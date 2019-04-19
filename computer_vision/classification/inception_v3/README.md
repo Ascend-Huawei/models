@@ -11,6 +11,10 @@ computer_vision
 ```
 *******************************************************************************
 
+#### Model Description
+
+Image classification inference model
+
 ##### Original Network Link:
 
 https://drive.google.com/open?id=0B9mkjlmP0d7zTEJmNEh6c0RfYzg
@@ -34,3 +38,4 @@ Not included
 ##### Versions that have been verified: 
 
 - Atlas 200
+- Atlas 300
