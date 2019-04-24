@@ -25,10 +25,6 @@ tools_version=$1
 
 function parse_download_branch()
 {
-    if [[ ${parse_download_branch_status}"X" != "X" ]];then
-        return 0
-    fi
-    
     echo "parse download_branch for ${tools_version}..."
     rm -rf ${script_path}/get_download_branch.sh
     rm -rf ${script_path}/branch_desc.txt
@@ -47,7 +43,7 @@ function parse_download_branch()
     else
         echo -e "\033[33mDownload models from special branch ${download_branch}, special branch definition in github:Ascend/models/branch_desc.txt for ${tools_version}\033[0m"
     fi
-    parse_download_branch_status="downloaded"
+
     return 0
 }
 
@@ -76,6 +72,11 @@ function download()
 
 main()
 {
+    if [[ ${tools_version}"X" == "X" ]];then
+        echo "ERROR: Invalid tools version. please get tools_version from IDE help menu."
+        return 1
+    fi
+
     #get download_branch
     parse_download_branch
     if [ $? -ne 0 ];then
