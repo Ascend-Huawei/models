@@ -72,6 +72,11 @@ function download()
 
 main()
 {
+    if [[ ${tools_version}"X" == "X" ]];then
+        echo "ERROR: Invalid tools version. please get tools_version from IDE help menu."
+        return 1
+    fi
+
     #get download_branch
     parse_download_branch
     if [ $? -ne 0 ];then
