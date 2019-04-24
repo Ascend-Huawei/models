@@ -76,17 +76,17 @@ function download()
 
 main()
 {
+    #get download_branch
+    parse_download_branch
+    if [ $? -ne 0 ];then
+        return 1
+    fi
+
     download_models=`echo $* | cut -d ' ' -f 2- `
     for model_info in ${download_models}
     do
         model_remote_path=`dirname ${model_info}`
         model_name=`basename ${model_info}`
-
-        #get download_branch
-        parse_download_branch
-        if [ $? -ne 0 ];then
-            return 1
-        fi
 
         download ${model_name} ${model_remote_path}
         if [ $? -ne 0 ];then
