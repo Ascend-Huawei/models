@@ -13,7 +13,7 @@ computer_vision
 
 ##### Original Network Link:
 
-https://cvhci.anthropomatik.kit.edu/~aschuman/vespa/vespa-peta_iter_12000.caffemodel
+https://github.com/asc-kit/vespa/blob/master/PETA/deploy_peta.prototxt
 
 ##### Pre-trained Model Link:
 
