@@ -19,7 +19,7 @@ Pre-trained Model Link:
 https://drive.google.com/drive/folders/0B8N1oYmGLVGWbDZ4Y21GLWxtV1E
 
 Input Description:
-Input image size is 228*228, format is BGR
+Input image size is 227*227, format is BGR
 
 Output Description:
 AGE_LIST = ['(0, 2)','(4, 6)','(8, 12)','(15, 20)','(25, 32)','(38, 43)','(48, 53)','(60, 100)']
