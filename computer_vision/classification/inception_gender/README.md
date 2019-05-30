@@ -20,7 +20,7 @@ Pre-trained Model Link:
 https://drive.google.com/drive/folders/0B8N1oYmGLVGWemZQd3JMOEZvdGs
 
 Input Description:
-Input image size is 228*228, format is BGR
+Input image size is 227*227, format is BGR
 
 Output Description:
 output male or female
