@@ -13,10 +13,10 @@ Scene Name: Om file Name and upper directory name should be scenes to be used.
 *******************************************************************************
 
 Original Network Link:
-https://github.com/zeusees/Mobilenet-SSD-License-Plate-Detection/MobileNetSSD_test.prototxt
+https://github.com/zeusees/Mobilenet-SSD-License-Plate-Detection/tree/master
 
 Pre-trained Model Link:
-https://github.com/zeusees/Mobilenet-SSD-License-Plate-Detection/lpr.caffemodel
+https://github.com/zeusees/Mobilenet-SSD-License-Plate-Detection/tree/master
 
 Input Description:
 The input image should be resized to 480*640
