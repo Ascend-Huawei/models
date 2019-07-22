@@ -10,63 +10,22 @@
 ## 模型列表<a name="section62083614491"></a>
 
 <a name="table224171614494"></a>
-<table><thead align="left"><tr id="row5243191618495"><th class="cellrowborder" valign="top" width="30%" id="mcps1.1.6.1.1"><p id="p1524371634910"><a name="p1524371634910"></a><a name="p1524371634910"></a>模型名称</p>
+<table><thead align="left"><tr id="row5243191618495"><th class="cellrowborder" valign="top" width="30%" id="mcps1.1.6.1.1"><p id="p1524371634910"><a name="p1524371634910"></a><a name="p1524371634910"></a>Model路径</p>
 </th>
-<th class="cellrowborder" valign="top" width="30%" id="mcps1.1.6.1.2"><p id="p82431216154918"><a name="p82431216154918"></a><a name="p82431216154918"></a>模型说明</p>
+<th class="cellrowborder" valign="top" width="30%" id="mcps1.1.6.1.2"><p id="p82431216154918"><a name="p82431216154918"></a><a name="p82431216154918"></a>模型描述</p>
 </th>
-<th class="cellrowborder" valign="top" width="40%" id="mcps1.1.6.1.3"><p id="p172431016184911"><a name="p172431016184911"></a><a name="p172431016184911"></a>路径</p>
 </th>
 
 </tr>
 </thead>
-<tbody><tr id="row12243161634918"><td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.6.1.1 "><p id="p324351654911">face_detection.om</p>
+<tbody><tr id="row12243161634918"><td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.6.1.1 "><p id="p324351654911">computer_vision/object_detect/</p>
 </td>
-<td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.6.1.2 "><p id="p15243916204916">人脸检测模型</p>
-</td>
-<td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.6.1.3 "><p id="p9879201815507">computer_vision/object_detect/face_detection</p>
+<td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.6.1.2 "><p id="p15243916204916">此路径中模型为目标检测网络模型</p>
 </td>
 </tr>
-<tr id="row12243161634918"><td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.6.1.1 "><p id="p324351654911">vanillacnn.om</p>
+<tr id="row12243161634918"><td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.6.1.1 "><p id="p324351654911">computer_vision/classification/</p>
 </td>
-<td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.6.1.2 "><p id="p15243916204916">人脸特征标记点模型</p>
-</td>
-<td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.6.1.3 "><p id="p9879201815507">computer_vision/classification/vanillacnn</p>
-</td>
-</tr><tr id="row12243161634918"><td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.6.1.1 "><p id="p324351654911">sphereface.om</p>
-</td>
-<td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.6.1.2 "><p id="p15243916204916">特征向量获取模型</p>
-</td>
-<td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.6.1.3 "><p id="p9879201815507">computer_vision/classification/sphereface</p>
-</td>
-</tr>
-</tr><tr id="row12243161634918"><td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.6.1.1 "><p id="p324351654911">car_color.om</p>
-</td>
-<td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.6.1.2 "><p id="p15243916204916">车辆颜色识别模型</p>
-</td>
-<td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.6.1.3 "><p id="p9879201815507">computer_vision/classification/car_color</p>
-</td>
-</tr>
-<tr id="row12243161634918"><td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.6.1.1 "><p id="p324351654911">car_type.om</p>
-</td>
-<td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.6.1.2 "><p id="p15243916204916">车辆品牌识别模型</p>
-</td>
-<td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.6.1.3 "><p id="p9879201815507">computer_vision/classification/car_type</p>
-</td>
-</tr>
-
-<tr id="row12243161634918"><td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.6.1.1 "><p id="p324351654911">vgg_ssd.om</p>
-</td>
-<td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.6.1.2 "><p id="p15243916204916">目标检测网络模型</p>
-</td>
-<td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.6.1.3 "><p id="p9879201815507">computer_vision/object_detect/vgg_ssd</p>
-</td>
-</tr>
-
-<tr id="row12243161634918"><td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.6.1.1 "><p id="p324351654911">pedestrian.om</p>
-</td>
-<td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.6.1.2 "><p id="p15243916204916">人体特性推理模型</p>
-</td>
-<td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.6.1.3 "><p id="p9879201815507">computer_vision/classification/pedestrian</p>
+<td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.6.1.2 "><p id="p15243916204916">此路径中模型为分类网络模型</p>
 </td>
 </tr>
 </tbody>
