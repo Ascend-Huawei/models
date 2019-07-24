@@ -22,7 +22,7 @@ Network model for object detection
 
 ##### Original Network Link:
 
-https://github.com/rbgirshick/py-faster-rcnn/blob/master/models/pascal_voc/VGG16/faster_rcnn_end2end/test.prototxt
+
 Convert from caffe
 
 ##### Pre-trained Model Link:
