@@ -22,12 +22,16 @@ Network model for object detection
 
 ##### Original Network Link:
 
+https://github.com/rbgirshick/py-faster-rcnn/blob/781a917b378dbfdedb45b6a56189a31982da1b43/models/pascal_voc/VGG16/faster_rcnn_end2end/test.prototxt
 
 Convert from caffe
 
 ##### Pre-trained Model Link:
 
-https://drive.google.com/open?id=0BzKzrI_SkD1_dlJpZHJzOXd3MTg
+https://dl.dropboxusercontent.com/s/o6ii098bu51d139/faster_rcnn_models.tgz?dl=0
+CHECKSUM=ac116844f66aefe29587214272054668
+
+VGG16_faster_rcnn_final.caffemodel file in the package.
 
 
 ##### Input Data Description:
