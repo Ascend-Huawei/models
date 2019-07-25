@@ -28,8 +28,7 @@ Convert from caffe
 
 ##### Pre-trained Model Link:
 
-https://dl.dropboxusercontent.com/s/o6ii098bu51d139/faster_rcnn_models.tgz?dl=0
-CHECKSUM=ac116844f66aefe29587214272054668
+https://dl.dropboxusercontent.com/s/o6ii098bu51d139/faster_rcnn_models.tgz?dl=0CHECKSUM=ac116844f66aefe29587214272054668
 
 VGG16_faster_rcnn_final.caffemodel file in the package.
 
