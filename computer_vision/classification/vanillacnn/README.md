@@ -16,10 +16,11 @@ Network model for marking facial feature points
 
 ##### Original Network Link:
 https://github.com/ishay2b/VanillaCNN/tree/master/ZOO/vanilla_deploy.prototxt
+
 Convert from caffe
 
 ##### Pre-trained Model Link:
-https://github.com/ishay2b/VanillaCNN/tree/master/ZOO/vanillaCNN.caffemodel
+https://github.com/ishay2b/VanillaCNN/tree/master/ZOO
 
 ##### Input Data Description:
 The input image should be resized to 40*40 pixels
