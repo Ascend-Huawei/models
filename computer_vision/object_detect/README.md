@@ -6,8 +6,8 @@ computer_vision
        |-- occlusion_face_detection
             |--OcclusionFaceDetection_demo.caffemodel
             |--OcclusionFaceDetection_demo.prototxt
-			|--aipp_conf_OcclusionFaceDetection.cfg
-			|--README.md
+	    |--aipp_conf_OcclusionFaceDetection.cfg
+            |--README.md
    |-- object_detect
    |-- segmentation
 ```
