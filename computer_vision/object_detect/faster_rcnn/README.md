@@ -1,16 +1,3 @@
-*******************************************************************************
-##### Structure of the directory for storing model files
-```
-computer_vision
-   |-- classification
-       |-- faster_rcnn
-            |--faster_rcnn.om
-            |--README.md
-   |-- object_detect
-   |-- segmentation
-```
-*******************************************************************************
-
 This model file is optimized for singular value decomposition based on the open source model,
 which can reduce the parameters of the fully connected layer and greatly reduce the size of the model.
 Please refer to the following script for specific usage.
