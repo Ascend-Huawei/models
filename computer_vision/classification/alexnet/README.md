@@ -22,6 +22,9 @@ https://github.com/BVLC/caffe/tree/master/models/bvlc_alexnet
 
 http://dl.caffe.berkeleyvision.org/bvlc_alexnet.caffemodel
 
+##### C30 and later versions need to manually convert the Davinci model using the caffe source code.
+
+Baidu network disk link:https://pan.baidu.com/s/172g7LV-jinJKe02rzJoAdg Extraction code:8wie
 
 ##### Input Data Description:
 
