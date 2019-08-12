@@ -23,6 +23,9 @@ https://github.com/KaimingHe/deep-residual-networks/blob/master/prototxt/ResNet-
 
 https://deepdetect.com/models/resnet/ResNet-50-model.caffemodel
 
+##### C30 and later versions need to manually convert the Davinci model using the caffe source code.
+Baidu network disk link:https://pan.baidu.com/s/1khzqcC8PaICK_bY-NNU8Ww Extraction code:4zsd
+
 ##### Input Data Description:
 
 The input image should be resized to 224*224 pixels, and padding to 256*224 pixels, YUV420SP_U8.
