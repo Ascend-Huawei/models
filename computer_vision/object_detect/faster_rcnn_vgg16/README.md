@@ -18,6 +18,9 @@ computer_vision
 ##### Pre-trained Model Link:
 //Convert from caffe/tensorflow/pytorch, etc---needed
 
+##### C30 and later versions need to manually convert the Davinci model using the caffe source code.
+Baidu network disk link:https://pan.baidu.com/s/1E2EmlVBrFe-eaLHUWfzIwQ Extraction code:wr2c
+
 ##### Input Description:
 //Input image size is 512*384, format is YUV420SP_U8
 
