@@ -21,6 +21,9 @@ https://github.com/BVLC/caffe/blob/master/models/bvlc_googlenet/deploy.prototxt
 
 http://dl.caffe.berkeleyvision.org/bvlc_googlenet.caffemodel
 
+##### C30 and later versions need to manually convert the Davinci model using the caffe source code.
+Baidu network disk link:https://pan.baidu.com/s/1UwVLlkNnFpuMfIQmMx38vA Extraction code:jzaa
+
 ##### Input Data Description:
 
 The input image should be resized to 224*224 pixels, and padding to 256*224 pixels, YUV420SP_U8.
