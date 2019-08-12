@@ -19,6 +19,10 @@ https://drive.google.com/open?id=0B9mkjlmP0d7zUEJ3aEJ2b3J0RFU
 
 https://drive.google.com/open?id=0B9mkjlmP0d7zUEJ3aEJ2b3J0RFU
 
+##### C30 and later versions need to manually convert the Davinci model using the caffe source code.
+
+Baidu network disk link:https://pan.baidu.com/s/1UwLgBKZ0EQtf5o5To2pn7A Extraction code:onfe
+
 ##### Input Data Description:
 
 The input image should be resized to 299*299 pixels, and padding to 384*304 pixels, YUV420SP_U8.
