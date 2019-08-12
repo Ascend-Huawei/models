@@ -18,6 +18,9 @@ https://github.com/zeusees/Mobilenet-SSD-License-Plate-Detection/tree/master
 Pre-trained Model Link:
 https://github.com/zeusees/Mobilenet-SSD-License-Plate-Detection/tree/master
 
+C30 and later versions need to manually convert the Davinci model using the caffe source code.
+Baidu network disk link:https://pan.baidu.com/s/1RCz4BLY22RZj1XIcqPRn5Q Extraction code:hvtu
+
 Input Description:
 The input image should be resized to 480*640
 
