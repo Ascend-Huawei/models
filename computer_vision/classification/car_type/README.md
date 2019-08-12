@@ -23,6 +23,8 @@ https://gist.github.com/bogger/b90eb88e31cd745525ae
 
 http://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/googlenet_finetune_web_car_iter_10000.caffemodel
 
+##### C30 and later versions need to manually convert the Davinci model using the caffe source code.
+Baidu network disk link:https://pan.baidu.com/s/12JEyCqHVda2jl9fhYfj-zA Extraction code:t05x
 
 ##### Input Data Description:
 
