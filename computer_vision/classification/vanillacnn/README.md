@@ -22,6 +22,9 @@ Convert from caffe
 ##### Pre-trained Model Link:
 https://github.com/ishay2b/VanillaCNN/tree/master/ZOO
 
+##### C30 and later versions need to manually convert the Davinci model using the caffe source code.
+Baidu network disk link:https://pan.baidu.com/s/1oHasEcicNviEtBM_cVYNLA Extraction code:34im
+
 ##### Input Data Description:
 The input image should be resized to 40*40 pixels
 
