@@ -24,6 +24,10 @@ Convert from caffe
 
 https://drive.google.com/open?id=0BzKzrI_SkD1_dlJpZHJzOXd3MTg
 
+##### C30 and later versions need to manually convert the Davinci model using the caffe source code.
+Baidu network disk link:https://pan.baidu.com/s/1E2EmlVBrFe-eaLHUWfzIwQ
+Extraction code:wr2c
+
 ##### Input Data Description:
 
 The input image should be resized to 512*512 pixels
