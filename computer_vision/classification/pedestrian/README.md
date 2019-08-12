@@ -19,6 +19,10 @@ https://github.com/asc-kit/vespa/blob/master/PETA/deploy_peta.prototxt
 
 https://cvhci.anthropomatik.kit.edu/~aschuman/vespa/vespa-peta_iter_12000.caffemodel
 
+##### C30 and later versions need to manually convert the Davinci model using the caffe source code.
+
+Baidu network disk link:https://pan.baidu.com/s/1nhZM7MCLH8TYdfG3rXa5-w Extraction code:be1y
+
 ##### Input Data Description:
 
 Input image size[width, height]:227*227
