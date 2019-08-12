@@ -17,6 +17,8 @@ Convert from caffe
 
 Obtain the VGG16_faster_rcnn_final.caffemodel file from the https://dl.dropboxusercontent.com/s/o6ii098bu51d139/faster_rcnn_models.tgz?dl=0CHECKSUM=ac116844f66aefe29587214272054668
 
+##### C30 and later versions need to manually convert the Davinci model using the caffe source code.
+Baidu network disk link:https://pan.baidu.com/s/1vyCh9eqCKGKScXliTl7y9w Extraction code:j3um
 
 ##### Input Data Description:
 
