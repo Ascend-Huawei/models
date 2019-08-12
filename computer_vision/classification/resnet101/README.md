@@ -25,6 +25,9 @@ Convert from caffe
 
 https://deepdetect.com/models/resnet/ResNet-101-model.caffemodel
 
+##### C30 and later versions need to manually convert the Davinci model using the caffe source code.
+Baidu network disk link:https://pan.baidu.com/s/11f3ifoRo-WjiVv1wHM5VSA Extraction code:f9g9
+
 ##### Input Data Description:
 
 The input image should be resized to 224*224 pixels, and padding to 256*224 pixels, YUV420SP_U8.
