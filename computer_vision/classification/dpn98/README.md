@@ -23,6 +23,10 @@ https://github.com/soeaver/caffe-model/blob/master/cls/dpn/deploy_dpn98.prototxt
 
 https://pan.baidu.com/s/1pKHBRlD#list/path=%2F
 
+##### C30 and later versions need to manually convert the Davinci model using the caffe source code.
+
+Baidu network disk link:https://pan.baidu.com/s/11TteiouuPmc6kC7F09RMUA Extraction code:h7yh
+
 ##### Input Data Description:
 
 The input image should be resized to 224*224 pixels, and padding to 256*224 pixels, YUV420SP_U8.
