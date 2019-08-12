@@ -19,6 +19,9 @@ https://github.com/dpressel/rude-carnie
 Pre-trained Model Link:
 https://drive.google.com/drive/folders/0B8N1oYmGLVGWemZQd3JMOEZvdGs
 
+C30 and later versions need to manually convert the Davinci model using the caffe source code. 
+Baidu network disk link:https://pan.baidu.com/s/1qz3YDZZVCHToMBajKODIPw Extraction code:c640
+
 Input Description:
 Input image size is 227*227, format is BGR
 
