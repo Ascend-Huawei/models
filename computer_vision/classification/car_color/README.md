@@ -22,6 +22,10 @@ Network model for identifying the vehicle color
 
 //Convert from caffe/tensorflow/pytorch, etc---needed
 
+##### C30 and later versions need to manually convert the Davinci model using the caffe source code.
+
+Baidu network disk link:https://pan.baidu.com/s/1bKQb7AabZibKlp7SVlM2XA Extraction code:bpzt
+
 ##### Input Data Description:
 
 Input image size is 224x224, format is BGR.
