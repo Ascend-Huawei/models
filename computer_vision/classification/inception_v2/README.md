@@ -23,6 +23,9 @@ https://raw.githubusercontent.com/pertusa/InceptionBN-21K-for-Caffe/master/deplo
 
 http://www.dlsi.ua.es/~pertusa/deep/Inception21k.caffemodel
 
+##### C30 and later versions need to manually convert the Davinci model using the caffe source code.
+Baidu network disk link:https://pan.baidu.com/s/1xSE9YIxaopp03IYSach6NQ Extraction code:7ypl
+
 ##### Input Data Description:
 
 The input image should be resized to 224*224 pixels, and padding to 256*224 pixels, YUV420SP_U8.
