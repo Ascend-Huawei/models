@@ -21,6 +21,9 @@ https://github.com/opencv/opencv/blob/master/samples/dnn/face_detector/deploy.pr
 ##### Pre-trained Model Link:
 https://github.com/opencv/opencv_3rdparty/tree/dnn_samples_face_detector_20170830
 
+##### C30 and later versions need to manually convert the Davinci model using the caffe source code.
+Baidu network disk link:https://pan.baidu.com/s/1GLhg315-SNdcTd0l86v8hw Extraction code:11vj
+
 ##### Input Data Description:
 size: 384*304
 format: YUV420SP_U8
