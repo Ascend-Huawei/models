@@ -18,7 +18,7 @@ https://github.com/dpressel/rude-carnie
 Pre-trained Model Link:
 https://drive.google.com/drive/folders/0B8N1oYmGLVGWbDZ4Y21GLWxtV1E
 
-C30 and later versions need to manually convert the Davinci model using the caffe source code.
+##### C30 and later versions need to manually convert the Davinci model using the tensorflow source code.
 Baidu network disk link:https://pan.baidu.com/s/1mIdydrGsH6gz5lO8wSTqXA Extraction code:d91n
 
 Input Description:
