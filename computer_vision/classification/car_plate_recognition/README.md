@@ -24,6 +24,9 @@ http://www.voidcn.com/article/p-kpmbpnho-bpe.html
 
 //Convert from caffe/tensorflow/pytorch, etc---needed
 
+##### C30 and later versions need to manually convert the Davinci model using the caffe source code.
+Baidu network disk link:https://pan.baidu.com/s/1-zNsm0Jf8NcGybgFX8ldmQ Extraction code:t4hz
+
 ##### Input Data Description:
 
 The input image should be resized to 272*72
