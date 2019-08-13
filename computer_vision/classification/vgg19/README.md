@@ -22,7 +22,7 @@ http://www.robots.ox.ac.uk/~vgg/software/very_deep/caffe/VGG_ILSVRC_15_layers.ca
 
 ##### Use the following caffe original model to convert the Davinci model.
 Baidu network disk link:https://pan.baidu.com/s/1rm3AIU5wZ7fJlGBRRwr_Kg Extraction code:qnv8
-The Davinci(.om) model can be used directly in the B750 and B883 versions.
+##### The Davinci(.om) model can be used directly in the B750 and B883 versions.
 
 ##### Input Data Description:
 The input image should be resized to 224*224 pixels, and padding to 256*224 pixels, YUV420SP_U8.
