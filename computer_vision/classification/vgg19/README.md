@@ -20,8 +20,9 @@ https://github.com/davidgengenbach/vgg-caffe/blob/master/model/VGG_ILSVRC_19_lay
 ##### Pre-trained Model Link:
 http://www.robots.ox.ac.uk/~vgg/software/very_deep/caffe/VGG_ILSVRC_15_layers.caffemodel
 
-##### C30 and later versions need to manually convert the Davinci model using the caffe source code.
-Baidu network disk link:https://pan.baidu.com/s/10Bgbn_DSUiw9IA4wyt8RoQ Extraction code:g1ud
+##### Use the following caffe original model to convert the Davinci model.
+Baidu network disk link:https://pan.baidu.com/s/1rm3AIU5wZ7fJlGBRRwr_Kg Extraction code:qnv8
+The Davinci(.om) model can be used directly in the B750 and B883 versions.
 
 ##### Input Data Description:
 The input image should be resized to 224*224 pixels, and padding to 256*224 pixels, YUV420SP_U8.
