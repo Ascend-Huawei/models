@@ -21,7 +21,7 @@ https://github.com/davidgengenbach/vgg-caffe/blob/master/model/VGG_ILSVRC_16_lay
 http://www.robots.ox.ac.uk/~vgg/software/very_deep/caffe/VGG_ILSVRC_16_layers.caffemodel
 
 ##### C30 and later versions need to manually convert the Davinci model using the caffe source code.
-Baidu network disk link:https://pan.baidu.com/s/1ftbFLx2hSfpeJvX0nbcTzw Extraction code:03vp
+Baidu network disk link:https://pan.baidu.com/s/1kcancGVqy8ycMMpI5OqWiQ Extraction code:icmr
 
 ##### Input Data Description:
 The input image should be resized to 224*224 pixels, and padding to 256*224 pixels, YUV420SP_U8.
