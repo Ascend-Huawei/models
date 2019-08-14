@@ -14,14 +14,16 @@ computer_vision
 #### Model Description
 Image classification inference model
 
+##### Use the following caffe original model to convert the Davinci model.
+
 ##### Original Network Link:
 https://github.com/davidgengenbach/vgg-caffe/blob/master/model/VGG_ILSVRC_16_layers_deploy.prototxt
 
 ##### Pre-trained Model Link:
 http://www.robots.ox.ac.uk/~vgg/software/very_deep/caffe/VGG_ILSVRC_16_layers.caffemodel
 
-##### Use the following caffe original model to convert the Davinci model.
-Baidu network disk link:https://pan.baidu.com/s/1FnoQq8UGEY7QAnEOTAo0hQ Extraction code:7cut
+##### Pre-trained Model Link of huaweicloud:
+https://obs-model-ascend.obs.cn-east-2.myhuaweicloud.com/vgg_16/vgg_16.caffemodel
 ##### The Davinci(.om) model can be used directly in the B750 and B883 versions.
 
 ##### Input Data Description:
