@@ -14,14 +14,16 @@ computer_vision
 #### Model Description
 Network model for obtaining feature vectors
 
+##### The Davinci(.om) model only support the B750 and B883 versions，Other versions should use the following caffe original model to convert the Davinci model.
+
 ##### Original Network Link:
 https://github.com/wy1iu/sphereface
 
 ##### Pre-trained Model Link:
-https://drive.google.com/open?id=0B_geeR2lTMegb2F6dmlmOXhWaVk
+https://obs-model-ascend.obs.cn-east-2.myhuaweicloud.com/sphereface/sphereface.caffemodel
 
-##### C30 and later versions need to manually convert the Davinci model using the caffe source code.
-Baidu network disk link:https://pan.baidu.com/s/1Go91C2ZsNt8kLtX6Iz_qPA Extraction code:rit5
+##### The model download failed or there was a problem with the conversion. You can check the link below for help：
+https://bbs.huaweicloud.com/forum/thread-22650-1-1.html
 
 ##### Input Data Description:
 Size: 96*112
