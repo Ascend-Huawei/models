@@ -15,16 +15,18 @@ computer_vision
 
 Image classification inference model
 
+##### The Davinci(.om) model only support the B750 and B883 versions，Other versions should use the following caffe original model to convert the Davinci model.
+
 ##### Original Network Link:
 
 https://raw.githubusercontent.com/pertusa/InceptionBN-21K-for-Caffe/master/deploy.prototxt
 
 ##### Pre-trained Model Link:
 
-http://www.dlsi.ua.es/~pertusa/deep/Inception21k.caffemodel
+https://obs-model-ascend.obs.cn-east-2.myhuaweicloud.com/inception_v2/inception_v2.caffemodel
 
-##### C30 and later versions need to manually convert the Davinci model using the caffe source code.
-Baidu network disk link:https://pan.baidu.com/s/1xSE9YIxaopp03IYSach6NQ Extraction code:7ypl
+##### The model download failed or there was a problem with the conversion. You can check the link below for help：
+https://bbs.huaweicloud.com/forum/thread-22650-1-1.html
 
 ##### Input Data Description:
 
