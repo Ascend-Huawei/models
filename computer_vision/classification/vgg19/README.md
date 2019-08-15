@@ -14,15 +14,16 @@ computer_vision
 #### Model Description
 Image classification inference model
 
+##### The Davinci(.om) model only support the B750 and B883 versions，Other versions should use the following caffe original model to convert the Davinci model.
+
 ##### Original Network Link:
 https://github.com/davidgengenbach/vgg-caffe/blob/master/model/VGG_ILSVRC_19_layers_deploy.prototxt
 
 ##### Pre-trained Model Link:
-http://www.robots.ox.ac.uk/~vgg/software/very_deep/caffe/VGG_ILSVRC_15_layers.caffemodel
+https://obs-model-ascend.obs.cn-east-2.myhuaweicloud.com/vgg_19/vgg_19.caffemodel
 
-##### Use the following caffe original model to convert the Davinci model.
-Baidu network disk link:https://pan.baidu.com/s/1rm3AIU5wZ7fJlGBRRwr_Kg Extraction code:qnv8
-##### The Davinci(.om) model can be used directly in the B750 and B883 versions.
+##### The model download failed or there was a problem with the conversion. You can check the link below for help：
+https://bbs.huaweicloud.com/forum/thread-22650-1-1.html
 
 ##### Input Data Description:
 The input image should be resized to 224*224 pixels, and padding to 256*224 pixels, YUV420SP_U8.
