@@ -13,16 +13,18 @@ computer_vision
 #### Model Description
 Image classification inference model
 
+##### The Davinci(.om) model only support the B750 and B883 versions，Other versions should use the following caffe original model to convert the Davinci model.
+
 ##### Original Network Link:
 
 https://github.com/BVLC/caffe/blob/master/models/bvlc_googlenet/deploy.prototxt
 
 ##### Pre-trained Model Link:
 
-http://dl.caffe.berkeleyvision.org/bvlc_googlenet.caffemodel
+https://obs-model-ascend.obs.cn-east-2.myhuaweicloud.com/googlenet/googlenet.caffemodel
 
-##### C30 and later versions need to manually convert the Davinci model using the caffe source code.
-Baidu network disk link:https://pan.baidu.com/s/1UwVLlkNnFpuMfIQmMx38vA Extraction code:jzaa
+##### The model download failed or there was a problem with the conversion. You can check the link below for help：
+https://bbs.huaweicloud.com/forum/thread-22650-1-1.html
 
 ##### Input Data Description:
 
