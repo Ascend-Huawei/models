@@ -7,6 +7,8 @@ https://github.com/rbgirshick/py-faster-rcnn/blob/781a917b378dbfdedb45b6a56189a3
 
 Network model for object detection
 
+##### The Davinci(.om) model only support the B750 and B883 versions，Other versions should use the following caffe original model to convert the Davinci model.
+
 ##### Original Network Link:
 
 https://github.com/rbgirshick/py-faster-rcnn/blob/781a917b378dbfdedb45b6a56189a31982da1b43/models/pascal_voc/VGG16/faster_rcnn_end2end/test.prototxt
@@ -15,10 +17,10 @@ Convert from caffe
 
 ##### Pre-trained Model Link:
 
-Obtain the VGG16_faster_rcnn_final.caffemodel file from the https://dl.dropboxusercontent.com/s/o6ii098bu51d139/faster_rcnn_models.tgz?dl=0CHECKSUM=ac116844f66aefe29587214272054668
+https://obs-model-ascend.obs.cn-east-2.myhuaweicloud.com/fast_rcnn/faster_rcnn.caffemodel
 
-##### C30 and later versions need to manually convert the Davinci model using the caffe source code.
-Baidu network disk link:https://pan.baidu.com/s/1vyCh9eqCKGKScXliTl7y9w Extraction code:j3um
+##### The model download failed or there was a problem with the conversion. You can check the link below for help：
+https://bbs.huaweicloud.com/forum/thread-22650-1-1.html
 
 ##### Input Data Description:
 
