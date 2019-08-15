@@ -15,17 +15,18 @@ computer_vision
 
 Image classification inference model
 
+##### The Davinci(.om) model only support the B750 and B883 versions，Other versions should use the following caffe original model to convert the Davinci model.
+
 ##### Original Network Link:
 
 https://github.com/soeaver/caffe-model/blob/master/cls/dpn/deploy_dpn98.prototxt
 
 ##### Pre-trained Model Link:
 
-https://pan.baidu.com/s/1pKHBRlD#list/path=%2F
+https://obs-model-ascend.obs.cn-east-2.myhuaweicloud.com/dpn98/dpn98.caffemodel
 
-##### C30 and later versions need to manually convert the Davinci model using the caffe source code.
-
-Baidu network disk link:https://pan.baidu.com/s/11TteiouuPmc6kC7F09RMUA Extraction code:h7yh
+##### The model download failed or there was a problem with the conversion. You can check the link below for help：
+https://bbs.huaweicloud.com/forum/thread-22650-1-1.html
 
 ##### Input Data Description:
 
