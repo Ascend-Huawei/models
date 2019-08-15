@@ -15,14 +15,16 @@ computer_vision
 #### Model Description
 Network model for face detection
 
+##### The Davinci(.om) model only support the B750 and B883 versions，Other versions should use the following caffe original model to convert the Davinci model.
+
 ##### Original Network Link:
 https://github.com/opencv/opencv/blob/master/samples/dnn/face_detector/deploy.prototxt
 
 ##### Pre-trained Model Link:
-https://github.com/opencv/opencv_3rdparty/tree/dnn_samples_face_detector_20170830
+https://obs-model-ascend.obs.cn-east-2.myhuaweicloud.com/face_detection/face_detection.caffemodel
 
-##### C30 and later versions need to manually convert the Davinci model using the caffe source code.
-Baidu network disk link:https://pan.baidu.com/s/1GLhg315-SNdcTd0l86v8hw Extraction code:11vj
+##### The model download failed or there was a problem with the conversion. You can check the link below for help：
+https://bbs.huaweicloud.com/forum/thread-22650-1-1.html
 
 ##### Input Data Description:
 size: 384*304
