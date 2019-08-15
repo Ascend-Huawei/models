@@ -22,8 +22,8 @@ https://github.com/davidgengenbach/vgg-caffe/blob/master/model/VGG_ILSVRC_16_lay
 ##### Pre-trained Model Link:
 https://obs-model-ascend.obs.cn-east-2.myhuaweicloud.com/vgg_16/vgg_16.caffemodel
 
-##### There was a problem with the model conversion. You can check the following link for help：
-Subsequent increase
+##### The model download failed or there was a problem with the conversion. You can check the link below for help：
+https://bbs.huaweicloud.com/forum/thread-22650-1-1.html
 
 ##### Input Data Description:
 The input image should be resized to 224*224 pixels, and padding to 256*224 pixels, YUV420SP_U8.
