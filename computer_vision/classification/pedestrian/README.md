@@ -11,17 +11,18 @@ computer_vision
 ```
 *******************************************************************************
 
+##### The Davinci(.om) model only support the B750 and B883 versions，Other versions should use the following caffe original model to convert the Davinci model.
+
 ##### Original Network Link:
 
 https://github.com/asc-kit/vespa/blob/master/PETA/deploy_peta.prototxt
 
 ##### Pre-trained Model Link:
 
-https://cvhci.anthropomatik.kit.edu/~aschuman/vespa/vespa-peta_iter_12000.caffemodel
+https://obs-model-ascend.obs.cn-east-2.myhuaweicloud.com/pedestrian/pedestrian.caffemodel
 
-##### C30 and later versions need to manually convert the Davinci model using the caffe source code.
-
-Baidu network disk link:https://pan.baidu.com/s/1nhZM7MCLH8TYdfG3rXa5-w Extraction code:be1y
+##### The model download failed or there was a problem with the conversion. You can check the link below for help：
+https://bbs.huaweicloud.com/forum/thread-22650-1-1.html
 
 ##### Input Data Description:
 
