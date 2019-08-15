@@ -16,16 +16,18 @@ Scene Name: Om file Name and upper directory name should be scenes to be used.
 
 Network model for identifying the license plate
 
+##### The Davinci(.om) model only support the B750 and B883 versions，Other versions should use the following caffe original model to convert the Davinci model.
+
 ##### Original Network Link:
 
 http://www.voidcn.com/article/p-kpmbpnho-bpe.html
 
 ##### Pre-trained Model Link:
 
-//Convert from caffe/tensorflow/pytorch, etc---needed
+https://obs-model-ascend.obs.cn-east-2.myhuaweicloud.com/car_plate_recognition/car_plate_recognition.caffemodel
 
-##### C30 and later versions need to manually convert the Davinci model using the caffe source code.
-Baidu network disk link:https://pan.baidu.com/s/1-zNsm0Jf8NcGybgFX8ldmQ Extraction code:t4hz
+##### The model download failed or there was a problem with the conversion. You can check the link below for help：
+https://bbs.huaweicloud.com/forum/thread-22650-1-1.html
 
 ##### Input Data Description:
 
