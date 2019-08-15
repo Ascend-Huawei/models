@@ -14,16 +14,18 @@ computer_vision
 #### Model Description
 Network model for marking facial feature points
 
+##### The Davinci(.om) model only support the B750 and B883 versions，Other versions should use the following caffe original model to convert the Davinci model.
+
 ##### Original Network Link:
 https://github.com/ishay2b/VanillaCNN/tree/master/ZOO/vanilla_deploy.prototxt
 
 Convert from caffe
 
 ##### Pre-trained Model Link:
-https://github.com/ishay2b/VanillaCNN/tree/master/ZOO
+https://obs-model-ascend.obs.cn-east-2.myhuaweicloud.com/vanillacnn/vanillacnn.caffemodel
 
-##### C30 and later versions need to manually convert the Davinci model using the caffe source code.
-Baidu network disk link:https://pan.baidu.com/s/1oHasEcicNviEtBM_cVYNLA Extraction code:34im
+##### The model download failed or there was a problem with the conversion. You can check the link below for help：
+https://bbs.huaweicloud.com/forum/thread-22650-1-1.html
 
 ##### Input Data Description:
 The input image should be resized to 40*40 pixels
