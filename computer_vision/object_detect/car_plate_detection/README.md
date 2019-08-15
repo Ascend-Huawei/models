@@ -12,23 +12,25 @@ computer_vision
 Scene Name: Om file Name and upper directory name should be scenes to be used.
 *******************************************************************************
 
-Original Network Link:
+##### The Davinci(.om) model only support the B750 and B883 versions，Other versions should use the following caffe original model to convert the Davinci model.
+
+##### Original Network Link:
 https://github.com/zeusees/Mobilenet-SSD-License-Plate-Detection/tree/master
 
-Pre-trained Model Link:
-https://github.com/zeusees/Mobilenet-SSD-License-Plate-Detection/tree/master
+##### Pre-trained Model Link:
+https://obs-model-ascend.obs.cn-east-2.myhuaweicloud.com/car_plate_detection/car_plate_detection.caffemodel
 
-C30 and later versions need to manually convert the Davinci model using the caffe source code.
-Baidu network disk link:https://pan.baidu.com/s/1RCz4BLY22RZj1XIcqPRn5Q Extraction code:hvtu
+##### The model download failed or there was a problem with the conversion. You can check the link below for help：
+https://bbs.huaweicloud.com/forum/thread-22650-1-1.html
 
-Input Description:
+##### Input Description:
 The input image should be resized to 480*640
 
-Output Description:
+##### Output Description:
 The pre-trained model will detect car plate.
 
-Custom Operator:
+##### Custom Operator:
 No
 
-Tested Version List:
+##### Tested Version List:
 -Atlas 200
