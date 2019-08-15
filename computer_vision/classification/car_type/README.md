@@ -15,16 +15,18 @@ computer_vision
 
 Network model for identifying the vehicle brand
 
+##### The Davinci(.om) model only support the B750 and B883 versions，Other versions should use the following caffe original model to convert the Davinci model.
+
 ##### Original Network Link:
 
 https://gist.github.com/bogger/b90eb88e31cd745525ae
 
 ##### Pre-trained Model Link:
 
-http://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/googlenet_finetune_web_car_iter_10000.caffemodel
+https://obs-model-ascend.obs.cn-east-2.myhuaweicloud.com/car_type/car_type.caffemodel
 
-##### C30 and later versions need to manually convert the Davinci model using the caffe source code.
-Baidu network disk link:https://pan.baidu.com/s/12JEyCqHVda2jl9fhYfj-zA Extraction code:t05x
+##### The model download failed or there was a problem with the conversion. You can check the link below for help：
+https://bbs.huaweicloud.com/forum/thread-22650-1-1.html
 
 ##### Input Data Description:
 
