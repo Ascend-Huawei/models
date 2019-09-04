@@ -1,19 +1,4 @@
-*******************************************************************************
-Model Path Description:
-```
-computer_vision
-   |-- classification
-       |-- {inception_gender}
-            |--{inception_gender}.om
-            |--README.md
-   |-- object_detect
-   |-- segmentation
-```
-
-Scene Name: Om file Name and upper directory name should be scenes to be used.
-*******************************************************************************
-
-##### The Davinci(.om) model only support the 1.1.X.X versions，Other versions should use the following Tensorflow PB original model to convert the Davinci model.
+##### Here, the inception_gender.om only support 1.1.x.x versions, if your version are not 1.1.x.x, please get om(davinci model) by converting from caffe original model maually.
 
 ##### Original Network Link:
 https://github.com/dpressel/rude-carnie
