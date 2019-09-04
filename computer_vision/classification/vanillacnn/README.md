@@ -1,20 +1,7 @@
-*******************************************************************************
-##### Structure of the directory for storing model files
-```
-computer_vision
-   |-- classification
-       |-- vanillacnn
-            |--vanillacnn.om
-            |--README.md
-   |-- object_detect
-   |-- segmentation
-```
-*******************************************************************************
-
 #### Model Description
 Network model for marking facial feature points
 
-##### The Davinci(.om) model only support the 1.1.X.X versions，Other versions should use the following caffe original model to convert the Davinci model.
+##### Here, the vanillacnn.om only support 1.1.x.x versions, if your version are not 1.1.x.x, please get om(davinci model) by converting from caffe original model maually.
 
 ##### Original Network Link:
 https://github.com/ishay2b/VanillaCNN/tree/master/ZOO/vanilla_deploy.prototxt
