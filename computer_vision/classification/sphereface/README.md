@@ -1,16 +1,3 @@
-*******************************************************************************
-##### Structure of the directory for storing model files
-```
-computer_vision
-   |-- classification
-       |-- sphereface
-            |--sphereface.om
-            |--README.md
-   |-- object_detect
-   |-- segmentation
-```
-*******************************************************************************
-
 #### Model Description
 Network model for obtaining feature vectors
 
