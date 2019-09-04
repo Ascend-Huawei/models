@@ -1,4 +1,4 @@
-##### Here, the inception_gender.om only support 1.1.x.x versions, if your version are not 1.1.x.x, please get om(davinci model) by converting from caffe original model maually.
+##### Here, the inception_gender.om only support 1.1.x.x versions, if your version are not 1.1.x.x, please get om(davinci model) by converting from tensorflow pb original model maually.
 
 ##### Original Network Link:
 https://github.com/dpressel/rude-carnie
