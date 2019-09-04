@@ -1,17 +1,3 @@
-*******************************************************************************
-Model Path Description:
-```
-computer_vision
-   |-- classification
-       |-- {car_plate_recognition}
-            |--{car_plate_recognition}.om
-            |--README.md
-   |-- object_detect
-   |-- segmentation
-```
-Scene Name: Om file Name and upper directory name should be scenes to be used.
-*******************************************************************************
-
 #### Model Description
 
 Network model for identifying the license plate
