@@ -7,7 +7,7 @@ https://github.com/rbgirshick/py-faster-rcnn/blob/781a917b378dbfdedb45b6a56189a3
 
 Network model for object detection
 
-##### The Davinci(.om) model only support the 1.1.X.X versions，Other versions should use the following caffe original model to convert the Davinci model.
+##### Here, the faster_rcnn.om only support 1.1.x.x versions, if your version are not 1.1.x.x, please get om(davinci model) by converting from caffe original model maually.
 
 ##### Original Network Link:
 
