@@ -1,16 +1,3 @@
-*******************************************************************************
-##### Structure of the directory for storing model files
-```
-computer_vision
-   |-- classification
-       |-- dpn98
-            |--dpn98.om
-            |--README.md
-   |-- object_detect
-   |-- segmentation
-```
-*******************************************************************************
-
 #### Model Description
 
 Image classification inference model
