@@ -1,17 +1,3 @@
-*******************************************************************************
-##### Structure of the directory for storing model files
-```
-computer_vision
-   |-- classification
-   |-- object_detect
-        |-- {vgg16_ssd}
-            |--{vgg16_ssd}.om
-            |--model_desc.txt
-   |-- segmentation
-```
-
-*******************************************************************************
-
 ##### Original Network Link:
 //Convert from caffe/tensorflow/pytorch, etc---needed
 
