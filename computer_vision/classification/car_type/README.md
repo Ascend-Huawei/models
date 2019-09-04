@@ -1,16 +1,3 @@
-*******************************************************************************
-##### Structure of the directory for storing model files
-```
-computer_vision
-   |-- classification
-       |-- car_type
-            |--car_type.om
-            |--README.md
-   |-- object_detect
-   |-- segmentation
-```
-*******************************************************************************
-
 ##### Model Description:
 
 Network model for identifying the vehicle brand
