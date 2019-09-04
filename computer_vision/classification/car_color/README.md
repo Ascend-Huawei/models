@@ -1,15 +1,3 @@
-*******************************************************************************
-##### Structure of the directory for storing model files
-```
-computer_vision
-   |-- classification
-       |-- car_color
-            |--car_color.om
-            |--README.md
-   |-- object_detect
-   |-- segmentation
-```
-*******************************************************************************
 #### Model Description
 
 Network model for identifying the vehicle color
