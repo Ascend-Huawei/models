@@ -1,17 +1,3 @@
-*******************************************************************************
-##### Structure of the directory for storing model files
-```
-computer_vision
-   |-- classification
-   |-- object_detect
-        |-- {face_body_detection}
-            |--{face_detectin}.om
-            |--model_desc.txt
-   |-- segmentation
-```
-
-*******************************************************************************
-
 ##### Original Network Link:
 //Convert from caffe/tensorflow/pytorch, etc---needed
 
