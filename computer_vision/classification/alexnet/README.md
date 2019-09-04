@@ -1,15 +1,3 @@
-*******************************************************************************
-##### Structure of the directory for storing model files
-```
-computer_vision
-   |-- classification   
-       |-- alexnet
-            |--alexnet.om
-            |--README.md            
-   |-- object_detect   
-   |-- segmentation
-```
-*******************************************************************************
 #### Model Description
 
 Image classification inference model
