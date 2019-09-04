@@ -1,18 +1,4 @@
-*******************************************************************************
-Model Path Description:
-```
-computer_vision
-   |-- classification
-   |-- object_detect
-       |-- {car_plate_detection}
-            |--{car_plate_detection}.om
-            |--README.md
-   |-- segmentation
-```
-Scene Name: Om file Name and upper directory name should be scenes to be used.
-*******************************************************************************
-
-##### The Davinci(.om) model only support the 1.1.X.X versions，Other versions should use the following caffe original model to convert the Davinci model.
+##### Here, the car_plate_detection.om only support 1.1.x.x versions, if your version are not 1.1.x.x, please get om(davinci model) by converting from caffe original model maually.
 
 ##### Original Network Link:
 https://github.com/zeusees/Mobilenet-SSD-License-Plate-Detection/tree/master
