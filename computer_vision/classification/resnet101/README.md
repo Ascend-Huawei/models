@@ -1,22 +1,8 @@
-*******************************************************************************
-##### Structure of the directory for storing model files
-```
-computer_vision
-   |-- classification
-       |-- resnet101
-            |--resnet101.om
-            |--README.md
-   |-- object_detect
-   |-- segmentation
-```
-*******************************************************************************
-
-
 #### Model Description
 
 Image classification inference model
 
-##### The Davinci(.om) model only support the 1.1.X.X versions，Other versions should use the following caffe original model to convert the Davinci model.
+##### Here, the resnet101.om only support 1.1.x.x versions, if your version are not 1.1.x.x, please get om(davinci model) by converting from caffe original model maually.
 
 ##### Original Network Link:
 
