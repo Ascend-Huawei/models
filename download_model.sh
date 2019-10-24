@@ -39,9 +39,9 @@ function parse_download_branch()
     
     download_branch=`/bin/bash ${script_path}/get_download_branch.sh ${tools_version}`
     if [[ ${download_branch} == "master" ]];then
-        echo -e "\033[33mDownload models from default branch ${download_branch}, no special branch definition in github:Ascend/models/branch_desc.txt for ${tools_version}.\033[0m"
+        echo -e "\033[33mDownload models from default branch ${download_branch}, no special branch definition in gitee:HuaweiAscend/models/branch_desc.txt for ${tools_version}.\033[0m"
     else
-        echo -e "\033[33mDownload models from special branch ${download_branch}, special branch definition in github:Ascend/models/branch_desc.txt for ${tools_version}\033[0m"
+        echo -e "\033[33mDownload models from special branch ${download_branch}, special branch definition in gitee:HuaweiAscend/models/branch_desc.txt for ${tools_version}\033[0m"
     fi
 
     return 0
@@ -54,7 +54,7 @@ function download()
     rm -rf ${script_path}/${model_name}_${tools_version}.om.ing
 
     if [ ! -f "${script_path}/${model_name}_${tools_version}.om" ];then
-        download_url="https://media.githubusercontent.com/media/Ascend/models/${download_branch}/${model_remote_path}/${model_name}/${model_name}.om"
+        download_url="https://gitee.com/HuaweiAscend/models/raw/${download_branch}/${model_remote_path}/${model_name}/${model_name}.om"
         wget -O ${script_path}/${model_name}_${tools_version}.om.ing ${download_url} --no-check-certificate
         if [ $? -ne 0 ];then
             echo "ERROR: download failed, please check ${download_url} connetction."
