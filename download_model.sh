@@ -29,9 +29,9 @@ function parse_download_branch()
     rm -rf ${script_path}/get_download_branch.sh
     rm -rf ${script_path}/branch_desc.txt
     
-    wget -O ${script_path}/get_download_branch.sh "https://gitee.com/HuaweiAscend/models/raw/master/get_download_branch.sh" --no-check-certificate --quiet
+    wget -O ${script_path}/get_download_branch.sh "https://gitee.com/HuaweiAscend/models/blob/master/get_download_branch.sh" --no-check-certificate --quiet
     if [ $? -ne 0 ];then
-        echo "ERROR: download failed, please check https://gitee.com/HuaweiAscend/models/raw/master/get_download_branch.sh connetction."
+        echo "ERROR: download failed, please check https://gitee.com/HuaweiAscend/models/blob/master/get_download_branch.sh connetction."
         rm -rf ${script_path}/get_download_branch.sh
         rm -rf ${script_path}/branch_desc.txt
         return 1
