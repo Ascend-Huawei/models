@@ -7,20 +7,11 @@ https://github.com/rbgirshick/py-faster-rcnn/blob/781a917b378dbfdedb45b6a56189a3
 
 Network model for object detection
 
-##### Here, the faster_rcnn.om only support 1.1.x.x versions, if your version are not 1.1.x.x, please get om(davinci model) by converting from caffe original model maually.
-
-##### Original Network Link:
-
-https://github.com/rbgirshick/py-faster-rcnn/blob/781a917b378dbfdedb45b6a56189a31982da1b43/models/pascal_voc/VGG16/faster_rcnn_end2end/test.prototxt
-
 Convert from caffe
 
 ##### Pre-trained Model Link:
 
 https://obs-model-ascend.obs.cn-east-2.myhuaweicloud.com/fast_rcnn/faster_rcnn.caffemodel
-
-##### The model download failed or there was a problem with the conversion. You can check the link below for help：
-https://bbs.huaweicloud.com/forum/thread-22650-1-1.html
 
 ##### Input Data Description:
 
@@ -52,8 +43,3 @@ layer {
     confidence_threshold: 0.8
   }
 }
-
-##### Versions that have been verified:
-
-- Atlas 200
-- Atlas 300
