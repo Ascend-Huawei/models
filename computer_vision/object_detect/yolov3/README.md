@@ -1,15 +1,15 @@
 #### Model Description
-Network model for face detection
+Network model for yolov3 detection
 
 ##### Pre-trained Model Link:
-https://obs-model-ascend.obs.cn-east-2.myhuaweicloud.com/face_detection/face_detection.caffemodel
+https://obs-model-ascend.obs.cn-east-2.myhuaweicloud.com/yolov3/yolov3.caffemodel
 
 ##### Input Data Description:
-size: 384*304
+size: 416*416
 format: YUV420SP_U8
 
 ##### Out Data Description:
-The pre-trained model will recognize 2 types: face and others.
+The pre-trained model will recognize 80 types and 1 backgroud.
 
 ##### Custom Operator:
 Not included
