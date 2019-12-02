@@ -17,5 +17,4 @@ output male or female
 //Custom operator is included or not: No
 //Custom operater code link ---optional
 
-##### Tested Version List:
-//-Atlas 200
+
