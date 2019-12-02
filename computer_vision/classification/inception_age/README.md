@@ -18,5 +18,3 @@ output probability of each type
 //Custom operator is included or not: No
 //Custom operater code link ---optional
 
-##### Tested Version List:
-//-Atlas 200
