@@ -14,11 +14,3 @@ Input image size is 224x224, format is BGR.
 
 //black;blue;brown;gold;green;grey;maroon;orange;red;silver;white;yellow
 
-##### Custom Operator:
-
-Not included
-
-##### Versions that have been verified: 
-
-- Atlas 200
-- Atlas 300
