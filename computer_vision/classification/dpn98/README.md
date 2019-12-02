@@ -2,9 +2,15 @@
 
 Image classification inference model
 
+##### Notice:
+When converting the model, you can directly use the network model in the warehouse. If you need to retrain, you can refer to the network model link of the original model in readme
+
 ##### Pre-trained Model Link:
 
 https://obs-model-ascend.obs.cn-east-2.myhuaweicloud.com/dpn98/dpn98.caffemodel
+
+##### Original Model Network Link:
+https://github.com/soeaver/caffe-model/blob/master/cls/dpn/deploy_dpn98.prototxt
 
 ##### Input Data Description:
 
