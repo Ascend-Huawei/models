@@ -20,11 +20,3 @@ The input image should be resized to 272*72
 
 output size is 65*7, the index of max value in 65 corresponding to one character of the car plate, only support 7 characters car plate recognition.
 
-##### Custom Operator:
-
-Not included
-
-##### Versions that have been verified: 
-
-- Atlas 200
-- Atlas 300
