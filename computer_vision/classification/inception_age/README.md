@@ -1,6 +1,11 @@
+##### Notice:
+When converting the model, you should use the PB model Link in the warehouse. If you need to retrain, you can refer to the network model link of the PB original model Link
 
-##### PB  original model Link:
+##### PB model Link:
 https://obs-model-ascend.obs.cn-east-2.myhuaweicloud.com/inception_age/inception_age.pb
+
+##### PB original model Link:
+https://drive.google.com/drive/folders/0B8N1oYmGLVGWbDZ4Y21GLWxtV1E
 
 ##### Input Description:
 Input image size is 227*227, format is BGR
