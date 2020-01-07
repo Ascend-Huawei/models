@@ -1,3 +1,4 @@
+EN|[CN](README.md)
 #### Model Description
 
 Image classification inference model
