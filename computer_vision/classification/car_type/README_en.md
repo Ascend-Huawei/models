@@ -1,4 +1,4 @@
-EN|[CN](README_osc.md)
+EN|[CN](README.osc.md)
 ##### Model Description:
 
 Network model for identifying the vehicle brand
