@@ -13,7 +13,7 @@ https://github.com/BVLC/caffe/tree/master/models/bvlc_alexnet
 
 ##### Input Data Description:
 
-The input image should be resized to 227*227 pixels, and padding to 256*224 pixels, YUV420SP_U8.
+The input image should be resized to 227*227 pixels.
 
 ##### Out Data Description:
 
