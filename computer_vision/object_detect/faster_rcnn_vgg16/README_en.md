@@ -1,4 +1,4 @@
-
+EN|[CN](README.osc.md)
 ##### Pre-trained Model Link:
 https://obs-model-ascend.obs.cn-east-2.myhuaweicloud.com/fast_rcnn_vgg16/fast_rcnn_vgg16.caffemodel
 
