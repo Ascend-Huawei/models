@@ -14,7 +14,7 @@ https://drive.google.com/open?id=0B9mkjlmP0d7zTEJmNEh6c0RfYzg
 
 ##### 输入数据描述:
 
-输入图像应该调整为299299像素，填充为384304像素，YUV420SP_U8。
+输入图像应该调整为299*299像素，填充为384*304像素，YUV420SP_U8。
 
 ##### 输出数据描述:
 
