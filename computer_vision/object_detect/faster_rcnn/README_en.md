@@ -1,3 +1,4 @@
+EN|[CN](README.osc.md)
 This model file is optimized for singular value decomposition based on the open source model,
 which can reduce the parameters of the fully connected layer and greatly reduce the size of the model.
 Please refer to the following script for specific usage.
