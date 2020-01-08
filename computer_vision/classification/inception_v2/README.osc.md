@@ -14,7 +14,7 @@ https://raw.githubusercontent.com/pertusa/InceptionBN-21K-for-Caffe/master/deplo
 
 ##### 输入数据描述:
 
-输入图像的大小应该调整为224224像素，填充为256224像素，YUV420SP_U8。
+输入图像的大小应该调整为224*224像素，填充为256*224像素，YUV420SP_U8。
 
 ##### 输出数据描述:
 
