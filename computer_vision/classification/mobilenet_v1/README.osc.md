@@ -26,5 +26,5 @@ https://github.com/shicai/MobileNet-Caffe
 
 ##### 已验证的版本:
 
-Atlas 200
-Atlas 300
+- Atlas 200
+- Atlas 300
