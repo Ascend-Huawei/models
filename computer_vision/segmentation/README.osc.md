@@ -18,4 +18,11 @@ https://github.com/fyu/dilation
 ##### 输出数据描述:
 
 对训练后的模型进行图像识别训练，结果遵循 pascal_voc 的21个标签。
+### 自定义操作符:
+不包括
+
+##### 已验证的版本:
+- Atlas 200
+- Atlas 300
+
 
