@@ -20,3 +20,10 @@ https://github.com/BVLC/caffe/tree/master/models/bvlc_alexnet
 
 对训练后的模型进行图像识别训练，结果遵循ImageNet的1000个标签。
 
+#### 自定义操作符:
+不包括
+
+##### 已验证的版本:
+- Atlas 200
+- Atlas 300
+
