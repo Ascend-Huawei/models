@@ -1,3 +1,4 @@
+EN|[CN](README.osc.md)
 #### Model Description
 
 Image segmentation inference model
