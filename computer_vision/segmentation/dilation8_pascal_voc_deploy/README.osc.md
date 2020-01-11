@@ -13,7 +13,7 @@ https://obs-model-ascend.obs.cn-east-2.myhuaweicloud.com/dilation8_pascal_voc/di
 https://github.com/fyu/dilation
 
 ##### 输入数据描述:
-模型要求的输入的图片宽高为  900*900 pixels。
+模型要求的输入的图片宽高为  900*900 像素。
 
 ##### 输出数据描述:
 
