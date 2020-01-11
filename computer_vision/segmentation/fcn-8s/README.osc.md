@@ -14,7 +14,7 @@ https://github.com/shelhamer/fcn.berkeleyvision.org
 
 ##### 输入数据描述:
 
-The input image should be resized to 500*500 pixels, and padding to 512*512 pixels, YUV420SP_U8.
+输入图像的大小应该调整为500*500像素，填充为512*512像素，YUV420SP_U8。
 
 ##### 输出数据描述:
 
