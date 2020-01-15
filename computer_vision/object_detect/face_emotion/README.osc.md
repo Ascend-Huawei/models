@@ -15,4 +15,4 @@ https://obs-model-ascend.obs.cn-east-2.myhuaweicloud.com/face_emotion/face_emoti
 
 ##### 输出数据描述:
 
-共有7种可能的表情，依次是生气（anger）、厌恶（digust）、恐惧（fear）、开心（happy）、伤心（sad）、惊讶（surprised）、中性（normal）。
+共有7种可能的表情，依次是生气、厌恶、恐惧、开心、伤心、惊讶、中性。
