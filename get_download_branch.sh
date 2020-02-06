@@ -44,9 +44,9 @@ fi
 
 #download branch_desc.txt
 if [[ ${download_flag}"X" == "X" || ${download_flag} == "true" ]];then
-    wget -O ${script_path}/branch_desc.txt "https://gitee.com/HuaweiAscend/models/raw/master/branch_desc.txt" --no-check-certificate --quiet
+    wget -O ${script_path}/branch_desc.txt "https://github.com/HuaweiAscendTest/models/raw/master/branch_desc.txt" --no-check-certificate --quiet
     if [ $? -ne 0 ];then
-        echo "ERROR: download branch_desc.txt failed, please https://gitee.com/HuaweiAscend/models/raw/master/branch_desc.txt connetction."
+        echo "ERROR: download branch_desc.txt failed, please https://github.com/HuaweiAscendTest/models/raw/master/branch_desc.txt connetction."
         exit 1
     fi
 fi
