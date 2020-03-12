@@ -16,8 +16,11 @@ The input image should be resized to 299*299 pixels, and padding to 384*304 pixe
 ##### AIPP Setting
 
 Input Image Size [W|H]: aligned to DVPP output
+
 Model Image Format: BGR
+
 Mean less [B|G|R]: 128 128 128
+
 Multiplying Factor [B|G|R]: 0.0078 0.0078 0.0078
 
 ##### Out Data Description:
