@@ -1,4 +1,4 @@
-中文|[英文](Readme.md)
+中文|[英文](README.md)
 #### 模型描述：
 
 peppapig检测的网络模型

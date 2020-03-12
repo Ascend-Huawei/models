@@ -1,4 +1,4 @@
-中文|[英文](Readme.md)
+中文|[英文](README.md)
 
 本仓给出了自定义算子命令行sample对应的caffe和tensorflow模型。
 

@@ -1,4 +1,4 @@
-中文|[英文](Readme.md)
+中文|[英文](README.md)
 
 该模型文件在开源模型的基础上对奇异值分解进行了优化，减少了全连通层的参数，大大减小了模型的尺寸。具体用法请参考以下脚本。
 https://github.com/rbgirshick/py-faster-rcnn/blob/781a917b378dbfdedb45b6a56189a31982da1b43/tools/compress_net.py
