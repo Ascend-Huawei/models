@@ -1,4 +1,4 @@
-中文|[英文](README_en.md)
+中文|[英文](Readme.md)
 ##### 预训练模型下载地址:
 https://obs-model-ascend.obs.cn-east-2.myhuaweicloud.com/fast_rcnn_vgg16/fast_rcnn_vgg16.caffemodel
 

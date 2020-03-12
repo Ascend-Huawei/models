@@ -4,7 +4,7 @@ EN|[CN](README.osc.md)
 Image segmentation inference model
 
 ##### Pre-trained Model Link:
-https://obs-model-ascend.obs.cn-east-2.myhuaweicloud.com/erfnet/erfnet_cityscapes.caffemodel
+https://obs-model-ascend.obs.cn-east-2.myhuaweicloud.com/erfnet/erfnet.caffemodel
 
 
 ##### Original Model Network Link:

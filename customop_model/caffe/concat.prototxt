@@ -1,0 +1,33 @@
+name: "concat"
+layer {
+    name: "data"
+    type: "Input"
+    top: "data"
+    input_param {
+        shape {
+        dim: 1
+        dim: 1
+        dim: 5
+        dim: 5
+        }
+    }
+}
+
+layer {
+    name: "relu"
+    type: "ReLU"
+    bottom: "data"
+    top: "relu"
+}
+
+layer {
+
+    name: "concat"
+    bottom: "data"
+    bottom: "relu"
+    top: "concat"
+    type: "Concat"
+    concat_param {
+        axis: 1
+    }
+}

@@ -13,16 +13,6 @@ https://drive.google.com/open?id=0B9mkjlmP0d7zUEJ3aEJ2b3J0RFU
 
 The input image should be resized to 299*299 pixels, and padding to 384*304 pixels, YUV420SP_U8.
 
-##### AIPP Setting
-
-Input Image Size [W|H]: aligned to DVPP output
-
-Model Image Format: BGR
-
-Mean less [B|G|R]: 128 128 128
-
-Multiplying Factor [B|G|R]: 0.0078 0.0078 0.0078
-
 ##### Out Data Description:
 
 The pre-trained model is trained for image recognition, and its results follow 1000 lables of ImageNet.
