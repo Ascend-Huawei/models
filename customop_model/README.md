@@ -1,4 +1,4 @@
-EN|[CN](README.osc.md)
+EN|[CN](Readme_cn.md)
 
 This repository gives the caffe and tensorflow models corresponding to the custom operator command line sample.
 
