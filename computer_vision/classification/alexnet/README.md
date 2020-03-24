@@ -1,4 +1,4 @@
-EN|[CN](README_osc.md)
+EN|[CN](Readme_cn.md)
 #### Model Description
 
 Image classification inference model

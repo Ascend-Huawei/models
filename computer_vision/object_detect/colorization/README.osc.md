@@ -1,21 +1,21 @@
-ï¿½ï¿½ï¿½ï¿½README.mdE_en.md)
-#### Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ÖÐÎÄ|[Ó¢ÎÄ](README_en.md)
+#### Ä£ÐÍÃèÊö£º
 
-ï¿½Ú°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«
+ºÚ°×Ïà²áÉÏÉ«
 
-##### ×¢ï¿½ï¿½ï¿½ï¿½ï¿½î£º
-×ªï¿½ï¿½Ä£ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½Ö±ï¿½ï¿½ï¿½Ú²Ö¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½Í£ï¿½prototxtï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½Ñµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô­Ê¼Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Óµï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñµï¿½ï¿½ï¿½ï¿½
+##### ×¢ÒâÊÂÏî£º
+×ª»»Ä£ÐÍÊ±£¬ÇëÖ±½ÓÔÚ²Ö¿âÖÐÏÂÔØÍøÂçÄ£ÐÍ£¨prototxtÎÄ¼þ£©£¬Èç¹ûÐèÒªÖØÐÂÑµÁ·£¬Çë¸ù¾ÝÏÂÃæµÄÔ­Ê¼Ä£ÐÍÍøÂçÁ´½ÓµØÖ·½øÐÐÖØÐÂÑµÁ·¡£
 
-##### Ô¤Ñµï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½Øµï¿½Ö·:
+##### Ô¤ÑµÁ·Ä£ÐÍÏÂÔØµØÖ·:
 https://obs-model-ascend.obs.cn-east-2.myhuaweicloud.com/colorization/colorization.caffemodel
 
-##### Ô­Ê¼Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Óµï¿½Ö·:
+##### Ô­Ê¼Ä£ÐÍÍøÂçÁ´½ÓµØÖ·:
 https://github.com/richzhang/colorization/blob/master/colorization/models/colorization_deploy_v2.prototxt
 
-##### ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½:
+##### ÊäÈëÊý¾ÝÃèÊö:
 
-Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½1,1,224,224ï¿½ï¿½
+Ä£ÐÍÊäÈëÎª£º£¨1,1,224,224£©
 
-##### ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½:
+##### Êä³öÊý¾ÝÃèÊö:
 
-Ô¤ï¿½ï¿½ï¿½abÍ¨ï¿½ï¿½ï¿½ï¿½ï¿½Ý£ï¿½shapeÎª(1,2,56,56)
+Ô¤²âµÄabÍ¨µÀÊý¾Ý£¬shapeÎª(1,2,56,56)

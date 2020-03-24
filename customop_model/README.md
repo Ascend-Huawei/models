@@ -1,8 +1,8 @@
-中文|[英文](README.md)
+EN|[CN](README.osc.md)
 
-本仓给出了自定义算子命令行sample对应的caffe和tensorflow模型。
+This repository gives the caffe and tensorflow models corresponding to the custom operator command line sample.
 
-目录结构为：
+The directory structure is as follows:
 
 ```bash
 .
@@ -13,4 +13,4 @@
     └── add.pb
 ```
 
-其中，concat.prototxt 和 concat.caffemodel 为 caffe 自定义算子 concat 的测试模型文件，add.pb 为tensorflow 自定义算子 add 的测试模型文件。
+Among them, concat.prototxt and concat.caffemodel are test model files of the caffe custom operator concat, and add.pb is a test model file of the tensorflow custom operator add.
