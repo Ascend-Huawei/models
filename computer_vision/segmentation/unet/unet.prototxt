@@ -3,7 +3,7 @@ layer {
   name: "data"
   type: "Input"
   top: "data"
-  # 输入数据的batch size, channel, width, height
+  # 输入数�的batch size, channel, width, height
   input_param { shape: { dim: 1 dim: 1 dim: 572 dim: 572 } }
 }
 layer {
