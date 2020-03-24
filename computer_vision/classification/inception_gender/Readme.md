@@ -1,4 +1,4 @@
-EN|[CN](README.osc.md)
+EN|[CN](Readme_cn.md)
 ##### Notice:
 When converting the model, you should use the PB model Link in the warehouse. If you need to retrain, you can refer to the network model link of the PB original model Link
 

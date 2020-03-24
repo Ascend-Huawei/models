@@ -1,4 +1,4 @@
-EN|[CN](README.osc.md)
+EN|[CN](Readme_cn.md)
 #### Model Description
 Network model for yolov3 detection
 

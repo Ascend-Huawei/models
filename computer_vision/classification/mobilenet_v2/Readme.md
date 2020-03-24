@@ -1,4 +1,4 @@
-EN|[CN](README.osc.md)
+EN|[CN](Readme_cn.md)
 ##### Notice:
 When converting the model, you can directly use the network model in the warehouse. If you need to retrain, you can refer to the network model link of the original model in readme
 
