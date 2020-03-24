@@ -29,9 +29,9 @@ function parse_download_branch()
     rm -rf ${script_path}/get_download_branch.sh
     rm -rf ${script_path}/branch_desc.txt
     
-    wget -O ${script_path}/get_download_branch.sh "https://github.com/Ascend-Huawei/models/raw/master/get_download_branch.sh" --no-check-certificate --quiet
+    wget -O ${script_path}/get_download_branch.sh "https://gitee.com/HuaweiAscend/models/raw/master/get_download_branch.sh" --no-check-certificate --quiet
     if [ $? -ne 0 ];then
-        echo "ERROR: download failed, please check https://github.com/Ascend-Huawei/models/raw/master/get_download_branch.sh connetction."
+        echo "ERROR: download failed, please check https://gitee.com/HuaweiAscend/models/raw/master/get_download_branch.sh connetction."
         rm -rf ${script_path}/get_download_branch.sh
         rm -rf ${script_path}/branch_desc.txt
         return 1
@@ -54,7 +54,7 @@ function download()
     rm -rf ${script_path}/${model_name}_${tools_version}.om.ing
 
     if [ ! -f "${script_path}/${model_name}_${tools_version}.om" ];then
-        download_url="https://github.com/Ascend-Huawei/models/blob/${download_branch}/${model_remote_path}/${model_name}/${model_name}.om"
+        download_url="https://gitee.com/HuaweiAscend/models/blob/${download_branch}/${model_remote_path}/${model_name}/${model_name}.om"
         wget -O ${script_path}/${model_name}_${tools_version}.om.ing ${download_url} --no-check-certificate
         if [ $? -ne 0 ];then
             echo "ERROR: download failed, please check ${download_url} connetction."
