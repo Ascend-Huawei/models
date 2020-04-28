@@ -1,21 +1,21 @@
-ÖÐÎÄ|[Ó¢ÎÄ](Readme.md)
-#### Ä£ÐÍÃèÊö£º
+|[Ó¢](Readme.md)
+#### Ä£
 
-ºÚ°×Ïà²áÉÏÉ«
+Ú°É«
 
-##### ×¢ÒâÊÂÏî£º
-×ª»»Ä£ÐÍÊ±£¬ÇëÖ±½ÓÔÚ²Ö¿âÖÐÏÂÔØÍøÂçÄ£ÐÍ£¨prototxtÎÄ¼þ£©£¬Èç¹ûÐèÒªÖØÐÂÑµÁ·£¬Çë¸ù¾ÝÏÂÃæµÄÔ­Ê¼Ä£ÐÍÍøÂçÁ´½ÓµØÖ·½øÐÐÖØÐÂÑµÁ·¡£
+##### ×¢î£º
+×ªÄ£Ê±Ö±Ú²Ö¿Ä£Í£prototxtÄ¼ÒªÑµÔ­Ê¼Ä£ÓµÖ·Ñµ
 
-##### Ô¤ÑµÁ·Ä£ÐÍÏÂÔØµØÖ·:
+##### Ô¤ÑµÄ£ØµÖ·:
 https://obs-model-ascend.obs.cn-east-2.myhuaweicloud.com/colorization/colorization.caffemodel
 
-##### Ô­Ê¼Ä£ÐÍÍøÂçÁ´½ÓµØÖ·:
+##### Ô­Ê¼Ä£ÓµÖ·:
 https://github.com/richzhang/colorization/blob/master/colorization/models/colorization_deploy_v2.prototxt
 
-##### ÊäÈëÊý¾ÝÃèÊö:
+##### :
 
-Ä£ÐÍÊäÈëÎª£º£¨1,1,224,224£©
+Ä£Îª1,1,224,224
 
-##### Êä³öÊý¾ÝÃèÊö:
+##### :
 
-Ô¤²âµÄabÍ¨µÀÊý¾Ý£¬shapeÎª(1,2,56,56)
+Ô¤abÍ¨Ý£shapeÎª(1,2,56,56)

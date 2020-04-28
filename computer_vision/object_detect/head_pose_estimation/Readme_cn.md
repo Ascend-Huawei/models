@@ -1,20 +1,20 @@
-ÖÐÎÄ|[Ó¢ÎÄ](Readme.md)
-#### Ä£ÐÍÃèÊö£º
+|[Ó¢](Readme.md)
+#### Ä£
 
-Í·²¿×ËÊÆÊ¶±ðµÄÍøÂçÄ£ÐÍ
+Í·Ê¶Ä£
 
-##### ×¢ÒâÊÂÏî£º
-×ª»»Ä£ÐÍÊ±£¬ÇëÖ±½ÓÔÚ²Ö¿âÖÐÏÂÔØÍøÂçÄ£ÐÍ£¨prototxtÎÄ¼þ£©£¬Èç¹ûÐèÒªÖØÐÂÑµÁ·£¬Çë¸ù¾ÝÏÂÃæµÄÔ­Ê¼Ä£ÐÍÍøÂçÁ´½ÓµØÖ·½øÐÐÖØÐÂÑµÁ·¡£
+##### ×¢î£º
+×ªÄ£Ê±Ö±Ú²Ö¿Ä£Í£prototxtÄ¼ÒªÑµÔ­Ê¼Ä£ÓµÖ·Ñµ
 
-##### Ô¤ÑµÁ·Ä£ÐÍÏÂÔØµØÖ·:
+##### Ô¤ÑµÄ£ØµÖ·:
 https://obs-model-ascend.obs.cn-east-2.myhuaweicloud.com/head_pose_estimation/head_pose_estimation.caffemodel
 
-##### Ô­Ê¼Ä£ÐÍÍøÂçÁ´½ÓµØÖ·:
+##### Ô­Ê¼Ä£ÓµÖ·:
 https://gist.github.com/bogger/b90eb88e31cd745525ae
 
-##### ÊäÈëÊý¾ÝÃèÊö:
+##### :
 
-Ä£ÐÍÒªÇóµÄÊäÈëµÄÍ¼Æ¬¿í¸ßÎª 224\*224 pixels£¬¸ñÊ½ÊÇBGR¡£
+Ä£ÒªÍ¼Æ¬Îª 224\*224 pixelsÊ½BGR
 
-##### Êä³öÊý¾ÝÃèÊö:
-ÑµÁ·Ç°µÄÄ£ÐÍ½«Ê¶±ðÁ½ÖÖÀàÐÍ£º68¸öÈËÁ³¹Ø¼üµã×ø±êºÍÈý¸öÍ·²¿Ðý×ª½Ç¶ÈÖµ¡£
+##### :
+ÑµÇ°Ä£Í½Ê¶Í£68Ø¼Í·×ªÇ¶Öµ

@@ -9,7 +9,7 @@ https://obs-model-ascend.obs.cn-east-2.myhuaweicloud.com/car_color/car_color.caf
 
 ##### Input Data Description:
 
-Model input is£º£¨1,1,224,224£©
+Model input is1,1,224,224
 
 ##### Out Data Description:
 
