@@ -1766,7 +1766,7 @@ layer {
 
 layer {
   name: "detection_out"
-  type: "SSDDetectionOutput"
+  type: "DetectionOutput"
   bottom: "mbox_loc"
   bottom: "mbox_conf_flatten"
   bottom: "mbox_priorbox"
